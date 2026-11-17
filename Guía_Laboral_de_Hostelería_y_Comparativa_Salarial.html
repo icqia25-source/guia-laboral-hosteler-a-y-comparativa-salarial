@@ -1,0 +1,2441 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="artifact-type" content="narrative">
+  <meta name="design-style" content="canopy">
+  <title>Guía Laboral de Hostelería en Navarra (2025) — Derechos, Turnos y Salarios Sin Tecnicismos</title>
+  <link href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;600&family=Literata:ital,opsz,wght@0,7..72,400..700;1,7..72,400..600&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+  <script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=UkJppZnpv89p_9xSBgUfrkuMqdyDBZBA9G09MpoPIuXd3yHoqj_CsyntcouJzRsOGxTmnt5nhXY9R0Y64miFf-krtR8n6Holq0MPfb0WdT-kjDp8sN_bStl6gb1PogY8A5UdjgWujLOFQFJMCawrmlPUXWh6FhYgU_bVw63jSEyZLRZkuj_tJMXhtRrea90kx-T-pLhN9bXmUGm1ZRJkKQwKfpARUL-9tQhssQHBMbFuNKgYju_ePubyWt0OSXYRcS5HiHwlUZm6b1HhHykoPkzGv6VxhVm_DKZ8_0lG6L4bWpfFUBLOJS-ruplMCxDLOm5LfFPbFLma-PMdAmM6bK9wR5doZiXU2vOj0PHVckh2o78VK3n5F_GCaTMqctm1" charset="UTF-8"></script><script src="https://unpkg.com/lucide@1.43.0/dist/umd/lucide.min.js"></script>
+  <style>
+    :root {
+      color-scheme: light;
+
+      /* Canopy base + Paleta Forest solicitada (#3E765D, #EEF5EF, #98B99D) */
+      --background: #F6F9F6;               /* Lienzo cálido vegetal */
+      --surface-container-low: #EEF5EF;    /* Soporte claro Forest */
+      --surface-container: #E3EDE5;        /* Banda secundaria suave */
+      --surface-container-high: #D3E2D6;   /* Controles inactivos y hover */
+      --surface-white: #FFFFFF;            /* Tarjetas limpias de contraste dentro de bandas */
+
+      /* Tinta */
+      --on-surface: #1A2821;               /* Carbón bosque profundo */
+      --on-surface-variant: #44574D;       /* Pizarra musgo legible */
+
+      /* Líneas */
+      --outline: #5C7266;                  /* Borde de inputs y ejes */
+      --outline-variant: #C5D6C8;          /* Divisores sutiles */
+
+      /* Acentos Forest */
+      --primary: #3E765D;                  /* Primario Forest solicitado */
+      --primary-hover: #32614C;            /* Hover oscuro accesible */
+      --on-primary: #FFFFFF;
+      --primary-container: #DCECE0;        /* Tarjeta destacada hoja pálida */
+      --on-primary-container: #18382A;     /* Tinta verde profunda sobre hoja pálida */
+
+      --secondary: #98B99D;                /* Secundario Forest solicitado (bordes, marcas, chips) */
+      --on-secondary: #152B20;             /* Tinta oscura accesible sobre #98B99D */
+
+      --tertiary: #8A531E;                 /* Ocre cálido para kickers y alertas pedagógicas */
+      --tertiary-container: #F4DFC0;       /* Relleno ocre semilla */
+      --on-tertiary-container: #5C350B;
+
+      --error: #B4322E;                    /* Rojo alerta accesible */
+      --error-container: #FAE8E7;          /* Fondo suave de mito/alerta */
+      --on-error-container: #7A1E1B;
+
+      /* Semántica compartida */
+      --positive: #3E765D;
+      --warning: #8A531E;
+      --focus: #3E765D;
+
+      /* Series de datos */
+      --data-1: #3E765D;
+      --data-2: #98B99D;
+      --data-3: #8A531E;
+      --data-4: #466A77;
+      --data-context: #B5C4B8;
+
+      /* Tipografía */
+      --font-headline: 'Literata', serif;
+      --font-body: 'Nunito Sans', sans-serif;
+      --font-label: 'Geist Mono', monospace;
+
+      /* Escala tipográfica (Narrative) */
+      --display-size: clamp(2.25rem, 1.35rem + 3.2vw, 3.75rem);
+      --headline-size: clamp(1.65rem, 1.15rem + 1.8vw, 2.35rem);
+      --subhead-size: clamp(1.1875rem, 1.05rem + 0.55vw, 1.45rem);
+      --body-size: clamp(1.0625rem, 1rem + 0.2vw, 1.125rem);
+      --label-size: clamp(0.75rem, 0.72rem + 0.12vw, 0.8125rem);
+
+      /* Forma y efectos */
+      --rounded: 0.625rem;
+      --rounded-lg: 1rem;
+      --rounded-full: 9999px;
+
+      --shadow-soft: 0 4px 20px rgb(26 40 33 / 0.06);
+      --shadow-soft-hover: 0 8px 28px rgb(26 40 33 / 0.10);
+      --border-soft: 1px solid var(--outline-variant);
+      --border-secondary: 2px solid var(--secondary);
+      --focus-glow: 0 0 0 3px var(--background), 0 0 0 6px var(--primary);
+
+      /* Espaciado (base 4pt) */
+      --space-xs: 0.25rem;
+      --space-sm: 0.5rem;
+      --space-md: 1rem;
+      --space-lg: 1.5rem;
+      --space-xl: 2.5rem;
+      --space-2xl: 4rem;
+      --space-3xl: 5.5rem;
+
+      /* Movimiento */
+      --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+      --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+      --dur-micro: 120ms;
+      --dur-short: 220ms;
+      --dur-long: 420ms;
+    }
+
+    /* Reset base obligatorio */
+    *, *::before, *::after { box-sizing: border-box; }
+    html {
+      scroll-behavior: smooth;
+      overflow-x: clip;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      overflow-x: clip;
+      margin: 0;
+      padding: 0;
+      background-color: var(--background);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: var(--body-size);
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+    }
+    header { position: static !important; }
+
+    .page-grid {
+      display: grid;
+      gap: var(--space-xl);
+      padding: var(--space-lg);
+      max-width: 1120px;
+      margin: 0 auto;
+      overflow: hidden;
+    }
+    .page-grid * { min-width: 0; }
+
+    /* Foco accesible global */
+    :focus-visible {
+      outline: 3px solid var(--focus);
+      outline-offset: 2px;
+    }
+
+    /* Tipografía */
+    h1, h2, h3, h4 {
+      font-family: var(--font-headline);
+      color: var(--on-surface);
+      margin: 0;
+      letter-spacing: -0.015em;
+    }
+    h1 {
+      font-size: var(--display-size);
+      font-weight: 600;
+      line-height: 1.1;
+      max-width: 22ch;
+    }
+    h2 {
+      font-size: var(--headline-size);
+      font-weight: 600;
+      line-height: 1.18;
+      margin-bottom: var(--space-sm);
+    }
+    h3 {
+      font-size: var(--subhead-size);
+      font-weight: 600;
+      line-height: 1.28;
+      margin-bottom: var(--space-xs);
+    }
+    p {
+      margin: 0 0 var(--space-md) 0;
+      max-width: 68ch;
+    }
+    p:last-child { margin-bottom: 0; }
+
+    .kicker {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-sm);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--tertiary);
+      margin-bottom: var(--space-sm);
+    }
+
+    .section-lede {
+      font-size: clamp(1.0625rem, 1rem + 0.35vw, 1.2rem);
+      color: var(--on-surface-variant);
+      max-width: 64ch;
+      margin-bottom: var(--space-lg);
+    }
+
+    .mono-num {
+      font-family: var(--font-label);
+      font-variant-numeric: tabular-nums;
+    }
+    .serif-num {
+      font-family: var(--font-headline);
+      font-variant-numeric: lining-nums tabular-nums;
+      font-weight: 600;
+    }
+
+    /* Botones */
+    .btn-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+      align-items: center;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: var(--space-sm);
+      min-height: 44px;
+      padding: var(--space-sm) var(--space-lg);
+      border-radius: var(--rounded);
+      font-family: var(--font-body);
+      font-size: 1rem;
+      font-weight: 700;
+      text-decoration: none;
+      cursor: pointer;
+      border: 0;
+      transition: background-color var(--dur-short) var(--ease-out),
+                  transform var(--dur-micro) var(--ease-out),
+                  box-shadow var(--dur-short) var(--ease-out);
+    }
+    .btn-primary {
+      background-color: var(--primary);
+      color: var(--on-primary);
+      box-shadow: var(--shadow-soft);
+    }
+    .btn-primary:hover {
+      background-color: var(--primary-hover);
+      box-shadow: var(--shadow-soft-hover);
+      transform: translateY(-1px);
+    }
+    .btn-primary:active { transform: translateY(0); }
+
+    .btn-secondary {
+      background-color: var(--surface-container);
+      color: var(--on-surface);
+    }
+    .btn-secondary:hover {
+      background-color: var(--surface-container-high);
+    }
+
+    .btn-ghost {
+      background-color: transparent;
+      color: var(--primary);
+      border: 1px solid var(--primary);
+    }
+    .btn-ghost:hover {
+      background-color: var(--surface-container-low);
+    }
+
+    /* Hero Section */
+    .hero {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-2xl) var(--space-xl);
+      border-bottom: 4px solid var(--secondary);
+      display: grid;
+      gap: var(--space-xl);
+    }
+    .hero-top {
+      display: grid;
+      gap: var(--space-md);
+    }
+    .hero-subtitle {
+      font-size: clamp(1.1rem, 1rem + 0.45vw, 1.28rem);
+      color: var(--on-surface-variant);
+      max-width: 62ch;
+      line-height: 1.6;
+    }
+    .hero-stats {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(220px, 100%), 1fr));
+      gap: var(--space-md);
+      padding-top: var(--space-lg);
+      border-top: var(--border-soft);
+    }
+    .hero-stat {
+      background-color: var(--surface-white);
+      border-radius: var(--rounded);
+      padding: var(--space-md) var(--space-lg);
+      border-left: 4px solid var(--primary);
+    }
+    .hero-stat-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--on-surface-variant);
+      display: block;
+      margin-bottom: var(--space-xs);
+    }
+    .hero-stat-val {
+      font-family: var(--font-headline);
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: var(--primary);
+      line-height: 1.15;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    .hero-stat-note {
+      font-size: 0.9rem;
+      color: var(--on-surface-variant);
+      margin-top: var(--space-xs);
+      display: block;
+    }
+
+    /* Índice interactivo */
+    .index-nav {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md) var(--space-lg);
+      box-shadow: var(--shadow-soft);
+    }
+    .index-header {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-sm);
+      margin-bottom: var(--space-md);
+    }
+    .index-title {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--on-surface-variant);
+    }
+    .index-pills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    .index-pill {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-md);
+      border-radius: var(--rounded);
+      background-color: var(--surface-container-low);
+      color: var(--on-surface);
+      font-weight: 600;
+      font-size: 0.9375rem;
+      text-decoration: none;
+      border: 1px solid transparent;
+      transition: background-color var(--dur-short) var(--ease-out),
+                  color var(--dur-short) var(--ease-out),
+                  border-color var(--dur-short) var(--ease-out);
+    }
+    .index-pill:hover {
+      background-color: var(--primary-container);
+      color: var(--on-primary-container);
+      border-color: var(--secondary);
+    }
+    .index-pill.is-active {
+      background-color: var(--primary);
+      color: var(--on-primary);
+    }
+
+    /* Secciones */
+    .guide-section {
+      display: grid;
+      gap: var(--space-lg);
+      padding-top: var(--space-xl);
+      border-top: 1px solid var(--outline-variant);
+    }
+    .guide-section:first-of-type {
+      border-top: 0;
+      padding-top: var(--space-md);
+    }
+    .section-head {
+      display: grid;
+      gap: var(--space-xs);
+    }
+
+    /* Tarjeta En Resumen (TL;DR) */
+    .tldr-card {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      border-left: 5px solid var(--primary);
+      display: grid;
+      gap: var(--space-sm);
+    }
+    .tldr-header {
+      display: flex;
+      align-items: center;
+      gap: var(--space-sm);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--primary);
+    }
+    .tldr-list {
+      margin: 0;
+      padding-left: var(--space-lg);
+      display: grid;
+      gap: var(--space-sm);
+    }
+    .tldr-list li {
+      padding-left: var(--space-xs);
+    }
+
+    /* Bloque En la práctica... */
+    .practice-card {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-left: 5px solid var(--tertiary);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      display: grid;
+      gap: var(--space-sm);
+      box-shadow: var(--shadow-soft);
+    }
+    .practice-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--on-tertiary-container);
+      background-color: var(--tertiary-container);
+      padding: var(--space-xs) var(--space-sm);
+      border-radius: var(--rounded);
+      width: fit-content;
+    }
+
+    /* Tarjetas estándar Canopy y Pale-Leaf */
+    .card {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      border: 0;
+    }
+    .card-white {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+    }
+    .card.is-leaf-highlight {
+      background-color: var(--primary-container);
+      color: var(--on-primary-container);
+      border: 2px solid var(--secondary);
+    }
+    .card-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(280px, 100%), 1fr));
+      gap: var(--space-lg);
+    }
+    .asymmetric-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+      gap: var(--space-lg);
+      align-items: start;
+    }
+
+    /* Pirámide normativa interactiva */
+    .norm-stack {
+      display: grid;
+      gap: var(--space-sm);
+    }
+    .norm-btn {
+      width: 100%;
+      text-align: left;
+      background-color: var(--surface-container-low);
+      border: 2px solid transparent;
+      border-radius: var(--rounded);
+      padding: var(--space-md) var(--space-lg);
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-md);
+      min-height: 56px;
+      font-family: var(--font-body);
+      color: var(--on-surface);
+      transition: background-color var(--dur-short) var(--ease-out),
+                  border-color var(--dur-short) var(--ease-out),
+                  transform var(--dur-micro) var(--ease-out);
+    }
+    .norm-btn:hover {
+      background-color: var(--surface-container);
+    }
+    .norm-btn.is-selected {
+      background-color: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+    }
+    .norm-btn-rank {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      opacity: 0.88;
+      display: block;
+    }
+    .norm-btn-title {
+      font-weight: 700;
+      font-size: 1.0625rem;
+      display: block;
+    }
+    .norm-detail-panel {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow-soft);
+      display: grid;
+      gap: var(--space-md);
+    }
+    .norm-tag {
+      display: inline-block;
+      background-color: var(--secondary);
+      color: var(--on-secondary);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      padding: var(--space-xs) var(--space-sm);
+      border-radius: var(--rounded);
+      width: fit-content;
+    }
+
+    /* Comprobador de descanso entre turnos */
+    .shift-checker {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      box-shadow: var(--shadow-soft);
+      display: grid;
+      gap: var(--space-lg);
+    }
+    .controls-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      align-items: end;
+    }
+    .field-group {
+      display: grid;
+      gap: var(--space-xs);
+      flex: 1 1 200px;
+    }
+    .field-label {
+      font-family: var(--font-body);
+      font-size: 0.9375rem;
+      font-weight: 700;
+      color: var(--on-surface);
+    }
+    .field-hint {
+      font-size: 0.85rem;
+      color: var(--on-surface-variant);
+    }
+    select, input[type="number"], input[type="text"], input[type="search"] {
+      width: 100%;
+      min-height: 44px;
+      padding: var(--space-sm) var(--space-md);
+      border: 1.5px solid var(--outline);
+      border-radius: var(--rounded);
+      background-color: var(--surface-white);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: 1rem;
+    }
+    select {
+      padding-right: var(--space-xl);
+    }
+    .shift-result {
+      border-radius: var(--rounded);
+      padding: var(--space-md) var(--space-lg);
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-md);
+    }
+    .shift-result.is-ok {
+      background-color: var(--primary-container);
+      color: var(--on-primary-container);
+      border-left: 5px solid var(--primary);
+    }
+    .shift-result.is-alert {
+      background-color: var(--error-container);
+      color: var(--on-error-container);
+      border-left: 5px solid var(--error);
+    }
+
+    /* Almanac Strip (Canopy Signature) para Progresión Profesional */
+    .almanac-wrapper {
+      display: grid;
+      gap: var(--space-md);
+    }
+    .season-strip {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md) var(--space-lg);
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: var(--space-md);
+      border: var(--border-soft);
+    }
+    .season-strip-label {
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--on-surface-variant);
+    }
+    .season-cells {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    .milestone-btn {
+      font-family: var(--font-label);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-md);
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: var(--rounded);
+      border: 1.5px solid var(--outline-variant);
+      background-color: var(--surface-white);
+      color: var(--on-surface);
+      cursor: pointer;
+      transition: background-color var(--dur-short) var(--ease-out),
+                  color var(--dur-short) var(--ease-out),
+                  border-color var(--dur-short) var(--ease-out);
+    }
+    .milestone-btn:hover {
+      background-color: var(--surface-container-high);
+    }
+    .milestone-btn.is-prep {
+      background-color: var(--tertiary-container);
+      color: var(--on-tertiary-container);
+      border-color: var(--tertiary);
+    }
+    .milestone-btn.is-active {
+      background-color: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+    }
+
+    /* Tabla comparativa salarial */
+    .filter-toolbar {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-md) var(--space-lg);
+      display: grid;
+      gap: var(--space-md);
+    }
+    .filter-chips {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-sm);
+    }
+    .chip-btn {
+      min-height: 44px;
+      padding: var(--space-xs) var(--space-md);
+      border-radius: var(--rounded-full);
+      border: 1.5px solid var(--outline-variant);
+      background-color: var(--surface-white);
+      color: var(--on-surface);
+      font-family: var(--font-body);
+      font-size: 0.9375rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color var(--dur-short) var(--ease-out),
+                  color var(--dur-short) var(--ease-out),
+                  border-color var(--dur-short) var(--ease-out);
+    }
+    .chip-btn:hover {
+      background-color: var(--surface-container);
+    }
+    .chip-btn.is-active {
+      background-color: var(--primary);
+      color: var(--on-primary);
+      border-color: var(--primary);
+    }
+    .table-scroll {
+      width: 100%;
+      overflow-x: auto;
+      background-color: var(--surface-white);
+      border-radius: var(--rounded-lg);
+      border: var(--border-soft);
+      box-shadow: var(--shadow-soft);
+    }
+    table.salary-table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 680px;
+    }
+    .salary-table thead th {
+      background-color: var(--surface-container-low);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--on-surface-variant);
+      text-align: left;
+      padding: var(--space-md);
+      border-bottom: 2px solid var(--secondary);
+    }
+    .salary-table thead th.num-col,
+    .salary-table tbody td.num-col {
+      text-align: right;
+      font-variant-numeric: tabular-nums;
+      white-space: nowrap;
+    }
+    .salary-table tbody td {
+      padding: var(--space-md);
+      border-bottom: var(--border-soft);
+      vertical-align: top;
+    }
+    .salary-table tbody tr:last-child td {
+      border-bottom: 0;
+    }
+    .salary-table tbody tr.is-total-row {
+      background-color: var(--surface-container-low);
+      font-weight: 700;
+    }
+    .concept-name {
+      font-weight: 700;
+      color: var(--on-surface);
+      display: block;
+    }
+    .concept-plain {
+      font-size: 0.9rem;
+      color: var(--on-surface-variant);
+      display: block;
+      margin-top: var(--space-xs);
+    }
+    .diff-pill {
+      display: inline-block;
+      font-family: var(--font-label);
+      font-size: 0.8125rem;
+      font-weight: 600;
+      padding: var(--space-xs) var(--space-sm);
+      border-radius: var(--rounded);
+      background-color: var(--primary-container);
+      color: var(--on-primary-container);
+    }
+    .diff-pill.is-equal {
+      background-color: var(--surface-container);
+      color: var(--on-surface-variant);
+    }
+
+    /* Gráfico comparativo SVG */
+    .chart-card {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      display: grid;
+      gap: var(--space-md);
+    }
+    .chart-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: var(--space-md);
+      font-size: 0.9375rem;
+    }
+    .legend-item {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+    }
+    .legend-swatch {
+      width: 14px;
+      height: 14px;
+      border-radius: 3px;
+      display: inline-block;
+    }
+
+    /* Simulador de nómina */
+    .simulator-grid {
+      display: grid;
+      grid-template-columns: minmax(0, 1.15fr) minmax(0, 1fr);
+      gap: var(--space-lg);
+      align-items: start;
+    }
+    .sim-inputs {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-lg);
+      display: grid;
+      gap: var(--space-md);
+      box-shadow: var(--shadow-soft);
+    }
+    .slider-pair {
+      display: grid;
+      grid-template-columns: minmax(0, 1fr) 96px;
+      gap: var(--space-md);
+      align-items: center;
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--primary);
+      min-height: 44px;
+      cursor: pointer;
+    }
+    .check-label {
+      display: flex;
+      align-items: flex-start;
+      gap: var(--space-sm);
+      min-height: 44px;
+      padding: var(--space-xs) 0;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .check-label input[type="checkbox"] {
+      width: 22px;
+      height: 22px;
+      margin-top: 2px;
+      accent-color: var(--primary);
+      flex-shrink: 0;
+    }
+    .sim-output {
+      display: grid;
+      gap: var(--space-md);
+    }
+    .sim-total-figure {
+      font-family: var(--font-headline);
+      font-size: clamp(2.1rem, 1.5rem + 1.8vw, 2.85rem);
+      font-weight: 600;
+      line-height: 1.08;
+      font-variant-numeric: lining-nums tabular-nums;
+      color: var(--on-primary-container);
+    }
+    .breakdown-list {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: grid;
+      gap: var(--space-xs);
+    }
+    .breakdown-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: var(--space-sm);
+      padding: var(--space-xs) 0;
+      border-bottom: 1px solid var(--outline-variant);
+      font-size: 0.95rem;
+    }
+    .breakdown-row:last-child { border-bottom: 0; }
+
+    /* Mitos vs Realidad */
+    .myth-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+      gap: var(--space-lg);
+    }
+    .myth-card {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      overflow: hidden;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      box-shadow: var(--shadow-soft);
+    }
+    .myth-top {
+      background-color: var(--error-container);
+      color: var(--on-error-container);
+      padding: var(--space-md) var(--space-lg);
+      border-bottom: 1px solid var(--outline-variant);
+      display: grid;
+      gap: var(--space-xs);
+    }
+    .myth-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+    .myth-quote {
+      font-family: var(--font-headline);
+      font-weight: 600;
+      font-size: 1.08rem;
+      line-height: 1.35;
+    }
+    .reality-bottom {
+      padding: var(--space-md) var(--space-lg);
+      display: grid;
+      gap: var(--space-sm);
+      align-content: start;
+    }
+    .reality-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: var(--space-xs);
+      font-family: var(--font-label);
+      font-size: var(--label-size);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--primary);
+    }
+    .reality-source {
+      font-family: var(--font-label);
+      font-size: 0.78rem;
+      color: var(--on-surface-variant);
+      margin-top: var(--space-xs);
+    }
+
+    /* Acordeón FAQ */
+    .faq-list {
+      display: grid;
+      gap: var(--space-sm);
+    }
+    .faq-item {
+      background-color: var(--surface-white);
+      border: var(--border-soft);
+      border-radius: var(--rounded-lg);
+      overflow: hidden;
+    }
+    .faq-trigger {
+      width: 100%;
+      min-height: 56px;
+      padding: var(--space-md) var(--space-lg);
+      background-color: transparent;
+      border: 0;
+      text-align: left;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: var(--space-md);
+      cursor: pointer;
+      font-family: var(--font-body);
+      font-size: 1.0625rem;
+      font-weight: 700;
+      color: var(--on-surface);
+      transition: background-color var(--dur-short) var(--ease-out);
+    }
+    .faq-trigger:hover {
+      background-color: var(--surface-container-low);
+    }
+    .faq-trigger[aria-expanded="true"] {
+      background-color: var(--surface-container-low);
+      color: var(--primary);
+    }
+    .faq-icon {
+      flex-shrink: 0;
+      transition: transform var(--dur-short) var(--ease-out);
+    }
+    .faq-trigger[aria-expanded="true"] .faq-icon {
+      transform: rotate(180deg);
+    }
+    .faq-panel {
+      padding: 0 var(--space-lg) var(--space-lg) var(--space-lg);
+      color: var(--on-surface);
+      border-top: 1px solid var(--outline-variant);
+      padding-top: var(--space-md);
+    }
+    .faq-panel[hidden] {
+      display: none;
+    }
+
+    /* Footer */
+    .guide-footer {
+      background-color: var(--surface-container-low);
+      border-radius: var(--rounded-lg);
+      padding: var(--space-xl);
+      display: grid;
+      gap: var(--space-md);
+      border-top: 3px solid var(--secondary);
+    }
+    .footer-meta {
+      font-size: 0.9375rem;
+      color: var(--on-surface-variant);
+    }
+
+    /* Animaciones suaves en scroll */
+    .reveal {
+      opacity: 0;
+      transform: translateY(12px);
+      transition: opacity var(--dur-long) var(--ease-out),
+                  transform var(--dur-long) var(--ease-out);
+    }
+    .reveal.is-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Responsive */
+    @media (max-width: 860px) {
+      .asymmetric-grid,
+      .simulator-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+    @media (max-width: 640px) {
+      .page-grid {
+        padding: var(--space-md);
+        gap: var(--space-lg);
+      }
+      .hero {
+        padding: var(--space-lg);
+      }
+      .slider-pair {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      *, *::before, *::after {
+        animation-duration: 0.01ms !important;
+        transition-duration: 0.01ms !important;
+        scroll-behavior: auto !important;
+      }
+      .reveal {
+        opacity: 1;
+        transform: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page-grid">
+
+    <!-- 1. CABECERA (HERO SECTION) -->
+    <header class="hero" id="inicio">
+      <div class="hero-top">
+        <span class="kicker">Guía práctica laboral · Hostelería de Navarra 2025</span>
+        <h1>Tus derechos y tu salario en hostelería, explicados sin rodeos</h1>
+        <p class="hero-subtitle">
+          Si trabajas en barra o sala, estás empezando en el sector o llevas un pequeño negocio, descifrar nóminas, pluses y turnos no debería exigir un máster en Derecho. Aquí tienes lo que dice exactamente el <strong>Convenio de Hostelería de Navarra (Tablas 2025)</strong>, el <strong>ALEH</strong> y el <strong>Estatuto de los Trabajadores</strong>, traducido a lenguaje cotidiano.
+        </p>
+        <div class="btn-row">
+          <a href="#mapa-normas" class="btn btn-primary">
+            <span>Explorar la guía paso a paso</span>
+            <i data-lucide="arrow-down" aria-hidden="true"></i>
+          </a>
+          <a href="#salarios-2025" class="btn btn-secondary">
+            <span>Ver tablas salariales y calculadora 2025</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-stats" aria-label="Cifras clave del Convenio de Hostelería de Navarra 2025">
+        <div class="hero-stat">
+          <span class="hero-stat-label">Camarero/a (Nivel III)</span>
+          <span class="hero-stat-val">1.696,47 € / mes</span>
+          <span class="hero-stat-note">Salario ordinario mensual (23.470,06 € brutos/año en 14 pagas)</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-label">Ascenso automático</span>
+          <span class="hero-stat-val">2 años en el sector</span>
+          <span class="hero-stat-note">El ayudante de camarero sube automáticamente a Camarero/a</span>
+        </div>
+        <div class="hero-stat">
+          <span class="hero-stat-label">Preaviso al dimitir</span>
+          <span class="hero-stat-val">15 días naturales</span>
+          <span class="hero-stat-note">Para Camarero/a y Ayudante (30 días es solo para Nivel I)</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. ÍNDICE INTERACTIVO -->
+    <nav class="index-nav" aria-label="Índice interactivo de secciones">
+      <div class="index-header">
+        <span class="index-title">Índice rápido — Salta directo a tu duda</span>
+        <span class="field-hint">Actualizado a Tablas Salariales Definitivas 2025</span>
+      </div>
+      <div class="index-pills" id="index-pills">
+        <a href="#mapa-normas" class="index-pill is-active" data-section="mapa-normas">1. Qué norma manda</a>
+        <a href="#horarios-descansos" class="index-pill" data-section="horarios-descansos">2. Horarios y descansos</a>
+        <a href="#categorias-ascensos" class="index-pill" data-section="categorias-ascensos">3. Categorías y ascensos</a>
+        <a href="#salarios-2025" class="index-pill" data-section="salarios-2025">4. Salarios y pluses 2025</a>
+        <a href="#simulador-nomina" class="index-pill" data-section="simulador-nomina">5. Simulador de nómina</a>
+        <a href="#mitos-realidad" class="index-pill" data-section="mitos-realidad">6. Mitos vs. Realidad</a>
+        <a href="#faq-hosteleria" class="index-pill" data-section="faq-hosteleria">7. Preguntas frecuentes</a>
+      </div>
+    </nav>
+
+    <!-- SECCIÓN 1: EL MAPA DE TUS DERECHOS -->
+    <section class="guide-section reveal" id="mapa-normas" aria-labelledby="h-mapa">
+      <div class="section-head">
+        <span class="kicker">Sección 1 · Reglas del juego</span>
+        <h2 id="h-mapa">Tres normas regulan tu trabajo, pero ninguna puede empeorar a la anterior</h2>
+        <p class="section-lede">
+          Cuando surge una duda en un bar o restaurante, no hay un solo libro de reglas. Conviven tres textos legales ordenados por jerarquía: el de arriba marca el mínimo intocable y el de Navarra concreta tu dinero.
+        </p>
+      </div>
+
+      <!-- En resumen (TL;DR) -->
+      <aside class="tldr-card" aria-label="En resumen sobre la normativa aplicable">
+        <div class="tldr-header">
+          <i data-lucide="bookmark-check" aria-hidden="true"></i>
+          <span>En resumen</span>
+        </div>
+        <ul class="tldr-list">
+          <li><strong>El Estatuto de los Trabajadores (ET) es tu suelo mínimo:</strong> Ningún contrato ni convenio puede darte menos descanso entre turnos ni menos vacaciones que esta ley general.</li>
+          <li><strong>El ALEH ordena el oficio en toda España:</strong> Significa «Acuerdo Laboral de Ámbito Estatal para el Sector de Hostelería». Define qué hace cada puesto y cómo se sancionan las faltas.</li>
+          <li><strong>El Convenio de Navarra manda en tu bolsillo:</strong> Fija los salarios de 2025, todos los pluses (manutención, nocturnidad, domingos, ropa) y cuándo asciendes automáticamente.</li>
+        </ul>
+      </aside>
+
+      <!-- Interactivo: Pirámide normativa -->
+      <div class="asymmetric-grid">
+        <div class="norm-stack" role="group" aria-label="Selecciona una norma para ver qué regula en tu día a día">
+          <button type="button" class="norm-btn is-selected" data-norm="et" onclick="selectNorm('et')">
+            <div>
+              <span class="norm-btn-rank">Nivel 1 · Ley estatal básica</span>
+              <span class="norm-btn-title">Estatuto de los Trabajadores (ET)</span>
+            </div>
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="norm-btn" data-norm="aleh" onclick="selectNorm('aleh')">
+            <div>
+              <span class="norm-btn-rank">Nivel 2 · Acuerdo nacional del sector</span>
+              <span class="norm-btn-title">ALEH (Acuerdo Estatal de Hostelería)</span>
+            </div>
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="norm-btn" data-norm="navarra" onclick="selectNorm('navarra')">
+            <div>
+              <span class="norm-btn-rank">Nivel 3 · Tu convenio en Navarra</span>
+              <span class="norm-btn-title">Convenio Colectivo de Hostelería de Navarra</span>
+            </div>
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+          <button type="button" class="norm-btn" data-norm="contrato" onclick="selectNorm('contrato')">
+            <div>
+              <span class="norm-btn-rank">Nivel 4 · Tu acuerdo individual</span>
+              <span class="norm-btn-title">Tu contrato de trabajo</span>
+            </div>
+            <i data-lucide="chevron-right" aria-hidden="true"></i>
+          </button>
+        </div>
+
+        <div class="norm-detail-panel" id="norm-detail" aria-live="polite">
+          <span class="norm-tag" id="norm-tag">Ley mínima en toda España</span>
+          <h3 id="norm-title">Estatuto de los Trabajadores (ET)</h3>
+          <p id="norm-desc">
+            Es la ley laboral general de España. Marca los límites que ningún empresario ni convenio puede rebajar: las 12 horas mínimas de descanso entre jornadas, los 30 días naturales de vacaciones al año o la pausa de 15 minutos en jornadas continuadas de más de 6 horas.
+          </p>
+          <p id="norm-example">
+            <strong>Traducción cotidiana:</strong> Si tu contrato dice que solo tienes 10 horas de descanso entre cerrar de noche y abrir de mañana, esa frase es nula porque el Estatuto exige 12 horas.
+          </p>
+        </div>
+      </div>
+
+      <!-- En la práctica -->
+      <div class="practice-card">
+        <span class="practice-badge">
+          <i data-lucide="coffee" aria-hidden="true"></i>
+          <span>En la práctica… El contrato con cláusula trampa</span>
+        </span>
+        <p>
+          Sara firma su primer contrato como <strong>Ayudante de camarero</strong> en un restaurante de Tudela. En la última hoja aparece una frase en letra pequeña: <em>«En caso de baja voluntaria, la trabajadora deberá avisar con 30 días de antelación»</em>. Seis meses después le ofrecen otro empleo y teme que le quiten dinero del finiquito si avisa con 15 días.
+        </p>
+        <p>
+          <strong>¿Qué ocurre realmente?</strong> Esa cláusula no es válida. El Convenio de Hostelería de Navarra establece un preaviso de <strong>15 días</strong> para los Niveles III y IV (Camarero/a y Ayudante/a) y reserva los 30 días únicamente para el Nivel I (puestos directivos). Un contrato nunca puede empeorar lo que ya protege el Convenio.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 2: HORARIOS, TURNOS Y DESCANSOS -->
+    <section class="guide-section reveal" id="horarios-descansos" aria-labelledby="h-horarios">
+      <div class="section-head">
+        <span class="kicker">Sección 2 · Tiempo de trabajo y pausas</span>
+        <h2 id="h-horarios">Horarios, descansos entre turnos y cómo se compensan noches y festivos</h2>
+        <p class="section-lede">
+          En hostelería los horarios cambian cada semana, pero tu cuerpo tiene límites protegidos por ley. Aquí explicamos cuándo un cambio de turno es legal y qué pluses activan las noches y los festivos.
+        </p>
+      </div>
+
+      <aside class="tldr-card" aria-label="En resumen sobre horarios y descansos">
+        <div class="tldr-header">
+          <i data-lucide="bookmark-check" aria-hidden="true"></i>
+          <span>En resumen</span>
+        </div>
+        <ul class="tldr-list">
+          <li><strong>12 horas de descanso obligatorio entre jornadas:</strong> Entre que sales de un turno y entras al siguiente deben transcurrir al menos 12 horas seguidas (art. 34.3 ET).</li>
+          <li><strong>De 22:00 a 06:00 es horario nocturno:</strong> En Navarra cada hora trabajada en esa franja añade <strong>2,38 €</strong> (Camarero/a) o <strong>2,34 €</strong> (Ayudante/a) sobre tu sueldo normal.</li>
+          <li><strong>Domingos, festivos y descanso semanal tienen precio fijo:</strong> Trabajar un domingo o festivo completo suma <strong>32,58 €</strong>; y si te deniegan la fecha que eliges para compensar un festivo, te corresponden <strong>38,40 €</strong> adicionales.</li>
+        </ul>
+      </aside>
+
+      <!-- Reglas explicadas en tarjetas limpias -->
+      <div class="card-grid">
+        <article class="card">
+          <h3>Pausa dentro del turno («el bocadillo»)</h3>
+          <p>
+            Si haces una <strong>jornada continuada</strong> (sin partir el turno al mediodía) que supera las <strong>6 horas seguidas</strong>, tienes derecho a un descanso mínimo de <strong>15 minutos</strong> (art. 34.4 ET). Si eres menor de 18 años, la pausa sube a 30 minutos a partir de 4 horas y media.
+          </p>
+        </article>
+        <article class="card">
+          <h3>El descanso semanal (2 días o compensación)</h3>
+          <p>
+            En el Convenio de Navarra, la referencia es el descanso semanal de <strong>2 días</strong>. Si empresa y persona trabajadora pactan sustituirlo por día y medio semanal, el convenio fija un abono compensatorio de <strong>51,36 € al mes</strong>.
+          </p>
+        </article>
+        <article class="card">
+          <h3>Festivos trabajados y fecha denegada</h3>
+          <p>
+            Cada domingo o festivo trabajado a jornada completa suma <strong>32,58 €</strong>. Además, si la empresa te deniega la fecha que elegiste para compensar con descanso un festivo trabajado, se activa una compensación específica de <strong>38,40 €</strong>.
+          </p>
+        </article>
+      </div>
+
+      <!-- Comprobador interactivo de descanso entre turnos -->
+      <div class="shift-checker" aria-labelledby="h-shift-checker">
+        <div>
+          <span class="kicker">Herramienta rápida de comprobación</span>
+          <h3 id="h-shift-checker">¿Cumple mi cambio de turno las 12 horas mínimas de descanso?</h3>
+          <p class="field-hint">Elige a qué hora terminaste ayer (cierre) y a qué hora te piden entrar hoy (apertura). Calculamos las horas reales de descanso y si hiciste horas nocturnas.</p>
+        </div>
+
+        <div class="controls-row">
+          <div class="field-group">
+            <label class="field-label" for="shift-close">Hora de salida del turno anterior</label>
+            <select id="shift-close" onchange="checkShiftRest()">
+              <option value="22">22:00 h (cierre temprano)</option>
+              <option value="23">23:00 h</option>
+              <option value="24">00:00 h (medianoche)</option>
+              <option value="25" selected>01:00 h (madrugada)</option>
+              <option value="26">02:00 h (cierre de copas)</option>
+              <option value="27">03:00 h</option>
+            </select>
+          </div>
+          <div class="field-group">
+            <label class="field-label" for="shift-open">Hora de entrada del día siguiente</label>
+            <select id="shift-open" onchange="checkShiftRest()">
+              <option value="8">08:00 h (desayunos)</option>
+              <option value="9" selected>09:00 h (apertura mañana)</option>
+              <option value="11">11:00 h (aperitivo)</option>
+              <option value="12">12:00 h (servicio mediodía)</option>
+              <option value="13">13:00 h</option>
+              <option value="14">14:00 h</option>
+              <option value="17">17:00 h (turno de tarde)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="shift-result is-alert" id="shift-result" aria-live="polite">
+          <div>
+            <strong id="shift-status-title">Solo han pasado 8 horas de descanso — Incumple el Estatuto</strong>
+            <p id="shift-status-detail" style="margin-top: var(--space-xs);">
+              Saliendo a la 01:00 h, tu descanso obligatorio de 12 horas no termina hasta las 13:00 h. Además, entre las 22:00 y la 01:00 h acumulaste 3 horas nocturnas con plus.
+            </p>
+          </div>
+          <span class="serif-num" id="shift-hours-badge" style="font-size: 1.75rem;">8 h</span>
+        </div>
+      </div>
+
+      <!-- En la práctica -->
+      <div class="practice-card">
+        <span class="practice-badge">
+          <i data-lucide="clock" aria-hidden="true"></i>
+          <span>En la práctica… El doblaje del fin de semana</span>
+        </span>
+        <p>
+          El sábado hay cenas de grupo y Carlos (Camarero) termina de recoger la sala a las <strong>01:00 h</strong> de la madrugada. El encargado le dice: <em>«Mañana domingo ven a las 09:00 h a montar los vermús, que hay mucho jaleo»</em>.
+        </p>
+        <p>
+          <strong>¿Es legal?</strong> No. Entre la 01:00 y las 09:00 solo hay <strong>8 horas</strong>, por debajo del mínimo legal de 12 horas entre jornadas. Carlos no debería incorporarse antes de las <strong>13:00 h</strong>. Por otro lado, las 3 horas trabajadas el sábado de 22:00 a 01:00 h deben pagarse con el <strong>Plus Nocturnidad (2,38 €/hora = 7,14 € extra)</strong>, y el domingo trabajado a jornada completa suma el <strong>Plus Domingos y Festivos (32,58 €)</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 3: CATEGORÍAS Y ASCENSOS -->
+    <section class="guide-section reveal" id="categorias-ascensos" aria-labelledby="h-categorias">
+      <div class="section-head">
+        <span class="kicker">Sección 3 · Puestos y carrera profesional</span>
+        <h2 id="h-categorias">Ayudante/a vs. Camarero/a: qué hace cada uno y cuándo subes de nivel</h2>
+        <p class="section-lede">
+          Muchas confusiones en hostelería nacen de contratar como «ayudante» a quien ya lleva la barra o el comedor solo. En Navarra, además, el tiempo trabajado juega a tu favor de forma automática.
+        </p>
+      </div>
+
+      <aside class="tldr-card" aria-label="En resumen sobre categorías y ascensos">
+        <div class="tldr-header">
+          <i data-lucide="bookmark-check" aria-hidden="true"></i>
+          <span>En resumen</span>
+        </div>
+        <ul class="tldr-list">
+          <li><strong>Dos niveles salariales distintos:</strong> El/la <strong>Camarero/a</strong> pertenece al <strong>Nivel III (Grupo 2.º)</strong> y el/la <strong>Ayudante/a de camarero</strong> al <strong>Nivel IV (Grupo 3.º)</strong>.</li>
+          <li><strong>Ascenso automático a los 2 años:</strong> Al cumplir <strong>2 años en el sector</strong> como ayudante de camarero, asciendes automáticamente a la categoría y puesto de Camarero/a.</li>
+          <li><strong>Garantía retributiva a los 3 años:</strong> Toda persona del Nivel IV que alcance <strong>3 años de antigüedad en el sector</strong> pasa a cobrar la retribución del Nivel III.</li>
+        </ul>
+      </aside>
+
+      <!-- Qué hace cada puesto (ALEH traducido) -->
+      <div class="card-grid">
+        <article class="card-white">
+          <span class="kicker">Nivel IV · Grupo Profesional 3.º</span>
+          <h3>Ayudante/a de camarero</h3>
+          <p>
+            <strong>En qué consiste (sin tecnicismos):</strong> Es un puesto de apoyo bajo supervisión de un camarero o jefe de sala. Se encarga de preparar y montar mesas (<em>mise en place</em>), limpiar y repasar cristalería, reponer cámaras y neveras, trasladar platos de cocina al pase y colaborar en barra.
+          </p>
+          <p>
+            <strong>Lo que no te toca hacer de forma habitual por este sueldo:</strong> Llevar un rango completo de mesas tú solo desde la bienvenida hasta el cobro y el asesoramiento de vinos sin supervisión.
+          </p>
+        </article>
+        <article class="card is-leaf-highlight">
+          <span class="kicker" style="color: var(--on-primary-container);">Nivel III · Grupo Profesional 2.º</span>
+          <h3>Camarero/a</h3>
+          <p>
+            <strong>En qué consiste (sin tecnicismos):</strong> Ejecuta de manera autónoma el servicio completo de barra y comedor: recibe al cliente, asesora sobre carta y bebidas, toma comandas, sirve, cobra en TPV/caja, controla el stock básico de su zona y coordina el apoyo de los ayudantes.
+          </p>
+          <p>
+            <strong>Diferencia económica en 2025:</strong> Son <strong>+53,57 € brutos más al mes</strong> en nómina ordinaria y <strong>+749,89 € brutos más al año</strong> contando las 14 pagas.
+          </p>
+        </article>
+      </div>
+
+      <!-- Almanac Progression Strip (Canopy Signature) -->
+      <div class="almanac-wrapper" aria-labelledby="h-progresion">
+        <div>
+          <h3 id="h-progresion">Tu línea temporal de ascensos y premios en Navarra (haz clic en cada hito)</h3>
+          <p class="field-hint">Nota clave: los 2 y 3 años para subir de nivel cuentan como experiencia <strong>en el sector</strong>, aunque hayas cambiado de empresa.</p>
+        </div>
+
+        <div class="season-strip">
+          <span class="season-strip-label">Hitos en Navarra</span>
+          <div class="season-cells" role="group" aria-label="Hitos de antigüedad y ascenso">
+            <button type="button" class="milestone-btn is-prep" data-m="0" onclick="selectMilestone(0)">Inicio (Nivel IV)</button>
+            <button type="button" class="milestone-btn is-active" data-m="2" onclick="selectMilestone(2)">2 años (Ascenso)</button>
+            <button type="button" class="milestone-btn" data-m="3" onclick="selectMilestone(3)">3 años (Nivel III)</button>
+            <button type="button" class="milestone-btn" data-m="6" onclick="selectMilestone(6)">6 años</button>
+            <button type="button" class="milestone-btn" data-m="9" onclick="selectMilestone(9)">9 años</button>
+            <button type="button" class="milestone-btn" data-m="19" onclick="selectMilestone(19)">19 años</button>
+            <button type="button" class="milestone-btn" data-m="29" onclick="selectMilestone(29)">29 años</button>
+          </div>
+        </div>
+
+        <div class="card-white" id="milestone-detail" aria-live="polite">
+          <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: baseline; gap: var(--space-sm);">
+            <h4 id="ms-title" style="font-size: 1.25rem;">A los 2 años en el sector: Ascenso automático a Camarero/a</h4>
+            <span class="diff-pill" id="ms-badge">+749,89 € / año</span>
+          </div>
+          <p id="ms-body" style="margin-top: var(--space-sm);">
+            Quienes ocupen el puesto de Ayudante de camarero (Nivel IV), una vez cumplidos <strong>dos años trabajando en el sector de hostelería</strong>, ascienden automáticamente a la categoría y puesto de Camarero/a (Nivel III). Tu salario anual bruto sube de 22.720,17 € a 23.470,06 €.
+          </p>
+        </div>
+      </div>
+
+      <!-- En la práctica -->
+      <div class="practice-card">
+        <span class="practice-badge">
+          <i data-lucide="trending-up" aria-hidden="true"></i>
+          <span>En la práctica… Sumando contratos de distintos locales</span>
+        </span>
+        <p>
+          Lucía trabajó <strong>1 año y 6 meses</strong> como ayudante de camarero en un bar de Estella. Cambió de empresa y lleva <strong>7 meses</strong> con la misma categoría en un restaurante de Pamplona. Su jefe le dice que «aquí todavía no llevas dos años, así que sigues de ayudante».
+        </p>
+        <p>
+          <strong>¿Quién tiene razón?</strong> Lucía. El convenio dice claramente «dos años <strong>en el sector</strong>», no en la misma empresa. Aportando su vida laboral para acreditar esos 25 meses acumulados en hostelería, le corresponde el ascenso automático a <strong>Camarero/a (Nivel III)</strong>.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 4: COMPARATIVA SALARIAL INTERACTIVA COMPLETA -->
+    <section class="guide-section reveal" id="salarios-2025" aria-labelledby="h-salarios">
+      <div class="section-head">
+        <span class="kicker">Sección 4 · Tablas Salariales Definitivas 2025 (Navarra)</span>
+        <h2 id="h-salarios">Comparativa salarial completa: Camarero/a frente a Ayudante/a</h2>
+        <p class="section-lede">
+          Todos los importes brutos oficiales de 2025 en Navarra, filtrables por tipo de concepto y traducidos a lo que significan realmente en tu nómina a fin de mes.
+        </p>
+      </div>
+
+      <aside class="tldr-card" aria-label="En resumen sobre salarios 2025">
+        <div class="tldr-header">
+          <i data-lucide="bookmark-check" aria-hidden="true"></i>
+          <span>En resumen</span>
+        </div>
+        <ul class="tldr-list">
+          <li><strong>Sueldo fijo mensual ordinario:</strong> <strong>1.696,47 €</strong> para Camarero/a y <strong>1.642,90 €</strong> para Ayudante/a (suma de Salario Base + Plus Convenio + Manutención).</li>
+          <li><strong>Dos pagas extraordinarias al año:</strong> En julio y diciembre cobras <strong>1.556,20 €</strong> (Camarero/a) o <strong>1.502,64 €</strong> (Ayudante/a) por cada paga (Base + Plus Convenio + Antigüedad si procede).</li>
+          <li><strong>Pluses de día y ropa idénticos:</strong> Ambos niveles cobran <strong>32,58 €</strong> por domingo/festivo trabajado y <strong>146,66 €/año</strong> si la empresa no facilita uniforme/calzado.</li>
+        </ul>
+      </aside>
+
+      <!-- Gráfico visual comparativo anual -->
+      <div class="chart-card" aria-labelledby="h-chart-anual">
+        <div>
+          <h3 id="h-chart-anual">Comparativa del salario anual bruto base (14 pagas efectivas en 2025)</h3>
+          <p class="field-hint">Desglose de la retribución fija anual sin contar noches ni festivos: +749,89 € de diferencia a favor del Nivel III.</p>
+        </div>
+
+        <div class="chart-legend" aria-hidden="true">
+          <span class="legend-item"><span class="legend-swatch" style="background: var(--data-1);"></span> Salario Base (12 meses)</span>
+          <span class="legend-item"><span class="legend-swatch" style="background: var(--data-2);"></span> Plus Convenio (12 meses)</span>
+          <span class="legend-item"><span class="legend-swatch" style="background: var(--data-3);"></span> Plus Manutención (12 meses)</span>
+          <span class="legend-item"><span class="legend-swatch" style="background: var(--data-4);"></span> 2 Pagas Extra (Julio y Dic.)</span>
+        </div>
+
+        <!-- Gráfico SVG accesible con etiquetas directas -->
+        <svg viewBox="0 0 760 190" role="img" aria-label="Gráfico comparativo del salario anual bruto: Camarero 23.470,06 euros frente a Ayudante 22.720,17 euros" style="width: 100%; height: auto; max-height: 220px;">
+          <!-- Eje horizontal suave -->
+          <line x1="170" y1="20" x2="170" y2="155" stroke="var(--outline-variant)" stroke-width="1" />
+          <line x1="360" y1="20" x2="360" y2="155" stroke="var(--outline-variant)" stroke-width="1" stroke-dasharray="3 3" />
+          <line x1="550" y1="20" x2="550" y2="155" stroke="var(--outline-variant)" stroke-width="1" stroke-dasharray="3 3" />
+
+          <!-- Camarero/a (Nivel III): total 23.470,06 € -> escala: 25.000 € = 460 px (x desde 170 hasta 630) -->
+          <!-- Base 12m: 15.900,36 € (292.6 px) | Convenio 12m: 2.774,04 € (51.0 px) | Manutención 12m: 1.683,12 € (31.0 px) | 2 Extras: 3.112,40 € (57.3 px) => 431.9 px -->
+          <text x="160" y="54" text-anchor="end" fill="var(--on-surface)" font-family="Nunito Sans, sans-serif" font-weight="700" font-size="14">Camarero/a (N. III)</text>
+          <rect x="170" y="34" width="292.6" height="32" rx="4" fill="var(--data-1)" />
+          <rect x="462.6" y="34" width="51.0" height="32" fill="var(--data-2)" />
+          <rect x="513.6" y="34" width="31.0" height="32" fill="var(--data-3)" />
+          <rect x="544.6" y="34" width="57.3" height="32" rx="4" fill="var(--data-4)" />
+          <text x="612" y="55" fill="var(--on-surface)" font-family="Geist Mono, monospace" font-weight="600" font-size="14">23.470,06 €</text>
+
+          <!-- Ayudante/a (Nivel IV): total 22.720,17 € -->
+          <!-- Base 12m: 15.341,64 € (282.3 px) | Convenio 12m: 2.690,04 € (49.5 px) | Manutención 12m: 1.683,12 € (31.0 px) | 2 Extras: 3.005,28 € (55.3 px) => 418.1 px -->
+          <text x="160" y="114" text-anchor="end" fill="var(--on-surface)" font-family="Nunito Sans, sans-serif" font-weight="700" font-size="14">Ayudante/a (N. IV)</text>
+          <rect x="170" y="94" width="282.3" height="32" rx="4" fill="var(--data-1)" />
+          <rect x="452.3" y="94" width="49.5" height="32" fill="var(--data-2)" />
+          <rect x="501.8" y="94" width="31.0" height="32" fill="var(--data-3)" />
+          <rect x="532.8" y="94" width="55.3" height="32" rx="4" fill="var(--data-4)" />
+          <text x="598" y="115" fill="var(--on-surface)" font-family="Geist Mono, monospace" font-weight="600" font-size="14">22.720,17 €</text>
+
+          <!-- Marcas inferiores -->
+          <text x="170" y="175" fill="var(--on-surface-variant)" font-family="Geist Mono, monospace" font-size="11">0 €</text>
+          <text x="360" y="175" text-anchor="middle" fill="var(--on-surface-variant)" font-family="Geist Mono, monospace" font-size="11">10.326 €</text>
+          <text x="550" y="175" text-anchor="middle" fill="var(--on-surface-variant)" font-family="Geist Mono, monospace" font-size="11">20.652 €</text>
+        </svg>
+      </div>
+
+      <!-- Controles de filtro para la tabla comparativa -->
+      <div class="filter-toolbar" aria-label="Filtros de la tabla comparativa salarial">
+        <div class="controls-row">
+          <div class="field-group">
+            <label class="field-label" for="salary-search">Buscar concepto o palabra clave</label>
+            <input type="search" id="salary-search" placeholder="Ejemplo: nocturnidad, ropa, paga extra, festivo…" oninput="filterSalaryTable()">
+          </div>
+          <div class="field-group" style="flex: 0 1 auto;">
+            <label class="field-label" for="salary-diff-filter">Filtrar por diferencia</label>
+            <select id="salary-diff-filter" onchange="filterSalaryTable()">
+              <option value="all">Mostrar todos los importes</option>
+              <option value="diff">Solo donde cobra más el Camarero/a</option>
+              <option value="equal">Solo importes iguales para ambos</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="filter-chips" role="group" aria-label="Categoría de conceptos salariales">
+          <button type="button" class="chip-btn is-active" data-cat="all" onclick="setSalaryCategory('all')">Todos (16)</button>
+          <button type="button" class="chip-btn" data-cat="fijo" onclick="setSalaryCategory('fijo')">Salario fijo y pagas (6)</button>
+          <button type="button" class="chip-btn" data-cat="variable" onclick="setSalaryCategory('variable')">Turnos y festivos (4)</button>
+          <button type="button" class="chip-btn" data-cat="antiguedad" onclick="setSalaryCategory('antiguedad')">Antigüedad y premios (4)</button>
+          <button type="button" class="chip-btn" data-cat="compensacion" onclick="setSalaryCategory('compensacion')">Ropa y valor hora (2)</button>
+        </div>
+      </div>
+
+      <!-- Tabla comparativa completa -->
+      <div class="table-scroll">
+        <table class="salary-table" aria-label="Tabla comparativa completa de salarios y pluses 2025 entre Camarero/a y Ayudante/a de camarero">
+          <thead>
+            <tr>
+              <th>Concepto salarial y qué significa</th>
+              <th class="num-col">Camarero/a (Nivel III)</th>
+              <th class="num-col">Ayudante/a (Nivel IV)</th>
+              <th class="num-col">Diferencia</th>
+              <th>Periodicidad / Condiciones</th>
+            </tr>
+          </thead>
+          <tbody id="salary-table-body">
+            <!-- Rellenado dinámicamente por JS -->
+          </tbody>
+        </table>
+      </div>
+      <p id="salary-empty-msg" class="field-hint" hidden>Ningún concepto coincide con tu búsqueda. Prueba a borrar el texto o elegir «Todos».</p>
+
+      <!-- 5. SIMULADOR DE NÓMINA MENSUAL -->
+      <div id="simulador-nomina" style="padding-top: var(--space-lg);">
+        <div class="section-head" style="margin-bottom: var(--space-md);">
+          <span class="kicker">Calculadora interactiva 2025</span>
+          <h3>Simula cuánto te corresponde cobrar este mes (en bruto)</h3>
+          <p class="section-lede" style="margin-bottom: 0;">
+            Ajusta tu categoría, si usas comedor de empresa, cuántas horas nocturnas y domingos hiciste y tu antigüedad. Calculamos cada línea al céntimo según las tablas de Navarra 2025.
+          </p>
+        </div>
+
+        <!-- Presets rápidos -->
+        <div class="btn-row" style="margin-bottom: var(--space-md);" aria-label="Escenarios predefinidos de ejemplo">
+          <button type="button" class="btn btn-secondary" onclick="applySimPreset('standard')">Mes estándar (sin festivos ni noches)</button>
+          <button type="button" class="btn btn-secondary" onclick="applySimPreset('nights')">Barra nocturna (30 h noche + 4 domingos)</button>
+          <button type="button" class="btn btn-secondary" onclick="applySimPreset('veteran')">Camarero/a 6 años + pagas prorrateadas</button>
+        </div>
+
+        <div class="simulator-grid">
+          <form class="sim-inputs" onsubmit="return false;">
+            <div class="field-group">
+              <label class="field-label" for="sim-role">Tu categoría profesional en nómina</label>
+              <select id="sim-role" onchange="updateSimulator()">
+                <option value="camarero">Camarero/a (Nivel III — Grupo 2.º)</option>
+                <option value="ayudante">Ayudante/a de camarero (Nivel IV — Grupo 3.º)</option>
+              </select>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="sim-manutencion">Uso del comedor de empresa (Plus Manutención)</label>
+              <select id="sim-manutencion" onchange="updateSimulator()">
+                <option value="full">No uso comedor — Cobro el Plus íntegro (140,26 €)</option>
+                <option value="used">Uso el comedor del local (concepto reducido a 0 € en efectivo)</option>
+              </select>
+              <span class="field-hint">El Plus Manutención se paga en 12 pagas y es reducible si haces uso del comedor.</span>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="sim-night-num">Horas trabajadas de noche (entre las 22:00 y las 06:00 h)</label>
+              <div class="slider-pair">
+                <input type="range" id="sim-night-range" min="0" max="120" step="1" value="12" aria-label="Selector deslizante de horas nocturnas" oninput="onNightSlider(this.value)">
+                <input type="number" id="sim-night-num" min="0" max="160" step="1" value="12" oninput="onNightNumber(this.value)">
+              </div>
+            </div>
+
+            <div class="controls-row">
+              <div class="field-group">
+                <label class="field-label" for="sim-sundays">Domingos o festivos (jornada completa)</label>
+                <input type="number" id="sim-sundays" min="0" max="10" step="1" value="2" oninput="updateSimulator()">
+              </div>
+              <div class="field-group">
+                <label class="field-label" for="sim-seniority">Antigüedad en la empresa</label>
+                <select id="sim-seniority" onchange="updateSimulator()">
+                  <option value="0">Menos de 6 años (0 €)</option>
+                  <option value="6">De 6 a 8 años (tramo 6 años)</option>
+                  <option value="9">9 años o más (tramo 9 años)</option>
+                </select>
+              </div>
+            </div>
+
+            <div class="field-group">
+              <label class="field-label" for="sim-prorrata">¿Cómo cobras las 2 pagas extraordinarias?</label>
+              <select id="sim-prorrata" onchange="updateSimulator()">
+                <option value="14">En 14 pagas (julio y diciembre aparte)</option>
+                <option value="12">Prorrateadas mes a mes (12 pagas iguales)</option>
+              </select>
+            </div>
+
+            <div>
+              <label class="check-label">
+                <input type="checkbox" id="sim-rest-sub" onchange="updateSimulator()">
+                <span>Pacto para sustituir descanso semanal de 2 días por 1,5 días (+51,36 €/mes)</span>
+              </label>
+              <label class="check-label">
+                <input type="checkbox" id="sim-denied-hol" onchange="updateSimulator()">
+                <span>La empresa me denegó la fecha elegida para compensar 1 festivo (+38,40 €)</span>
+              </label>
+            </div>
+          </form>
+
+          <div class="sim-output">
+            <div class="card is-leaf-highlight" aria-live="polite">
+              <span class="kicker" style="color: var(--on-primary-container);">Total bruto mensual estimado (2025)</span>
+              <div class="sim-total-figure" id="sim-total">1.790,19 €</div>
+              <p id="sim-subtitle" style="margin-top: var(--space-xs); font-size: 0.95rem;">
+                Importe bruto antes de retenciones de IRPF y cotización a la Seguridad Social.
+              </p>
+
+              <ul class="breakdown-list" id="sim-breakdown" style="margin-top: var(--space-md);">
+                <!-- Líneas generadas dinámicamente -->
+              </ul>
+            </div>
+
+            <div class="card-white">
+              <span class="kicker">Referencia rápida</span>
+              <p style="margin-bottom: var(--space-xs);">
+                <strong>Valor oficial de tu hora ordinaria (2025):</strong>
+                <span class="mono-num" id="sim-hour-rate" style="font-weight: 700; color: var(--primary);">13,55 € / hora</span>
+              </p>
+              <p class="field-hint">
+                Además, recuerda que en julio y diciembre te corresponde una paga extra de <strong id="sim-extra-val">1.556,20 €</strong> (o su parte proporcional si están prorrateadas). Si llegas a 19 o 29 años en la empresa, sumas el Premio de Vinculación anual (185,09 € o 277,62 €).
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- En la práctica -->
+      <div class="practice-card">
+        <span class="practice-badge">
+          <i data-lucide="shirt" aria-hidden="true"></i>
+          <span>En la práctica… El uniforme de septiembre y el calzado</span>
+        </span>
+        <p>
+          Llega septiembre y en la cafetería donde trabaja Javi (Ayudante de camarero) cada empleado se compra su propio pantalón negro y sus zapatillas antideslizantes porque la empresa solo les dio dos polos con el logo.
+        </p>
+        <p>
+          <strong>¿Qué dice el Convenio de Navarra?</strong> La compensación por ropa de trabajo es de <strong>146,66 € al año</strong>, abonables en el mes de septiembre si la empresa no facilita el uniforme y el calzado completos. Y si la empresa no aportara absolutamente ningún elemento de vestuario, esa cantidad se incrementa en un <strong>+50%</strong> (llegando a <strong>219,99 €</strong> al año).
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 5: MITOS VS REALIDAD Y RÉGIMEN DISCIPLINARIO -->
+    <section class="guide-section reveal" id="mitos-realidad" aria-labelledby="h-mitos">
+      <div class="section-head">
+        <span class="kicker">Sección 5 · Desmontando bulos de barra</span>
+        <h2 id="h-mitos">Mitos vs. Realidad: errores frecuentes que te hacen perder dinero o derechos</h2>
+        <p class="section-lede">
+          En hostelería circulan muchas frases repetidas de oído («aquí siempre se ha hecho así»). Contrastamos los seis malentendidos más habituales con la norma real.
+        </p>
+      </div>
+
+      <aside class="tldr-card" aria-label="En resumen sobre mitos y régimen disciplinario">
+        <div class="tldr-header">
+          <i data-lucide="bookmark-check" aria-hidden="true"></i>
+          <span>En resumen</span>
+        </div>
+        <ul class="tldr-list">
+          <li><strong>Preaviso real de 15 días:</strong> Ni camareros ni ayudantes deben preavisar con 30 días al dimitir en Navarra; ese mes completo es solo para el Nivel I.</li>
+          <li><strong>Las faltas se miden con proporcionalidad (ALEH):</strong> Un error leve puntual no justifica un despido disciplinario; las sanciones graves o muy graves exigen carta escrita.</li>
+          <li><strong>Las propinas no sustituyen ningún concepto:</strong> Tu sueldo base, nocturnidad y festivos son obligatorios aunque un mes el bote sea cero.</li>
+        </ul>
+      </aside>
+
+      <!-- Filtros de mitos -->
+      <div class="filter-chips" role="group" aria-label="Filtrar mitos por temática">
+        <button type="button" class="chip-btn is-active" data-myth-cat="all" onclick="filterMyths('all')">Todos (6)</button>
+        <button type="button" class="chip-btn" data-myth-cat="cese" onclick="filterMyths('cese')">Dimisión y preaviso</button>
+        <button type="button" class="chip-btn" data-myth-cat="turnos" onclick="filterMyths('turnos')">Turnos y descansos</button>
+        <button type="button" class="chip-btn" data-myth-cat="faltas" onclick="filterMyths('faltas')">Faltas y sanciones</button>
+        <button type="button" class="chip-btn" data-myth-cat="dinero" onclick="filterMyths('dinero')">Dinero y pluses</button>
+      </div>
+
+      <div class="myth-grid" id="myth-grid">
+        <!-- Rellenado dinámicamente -->
+      </div>
+
+      <!-- Mini-guía de Faltas y Sanciones según el ALEH -->
+      <div class="card" aria-labelledby="h-disciplina">
+        <span class="kicker">Régimen disciplinario en hostelería (ALEH)</span>
+        <h3 id="h-disciplina">Cómo funcionan las faltas leves, graves y muy graves sin sustos</h3>
+        <p>
+          El Acuerdo Estatal de Hostelería (ALEH) impide que te sancionen «a ojo». Todo incumplimiento debe encajar en uno de estos tres escalones, y <strong>siempre puedes impugnarlo ante el juzgado en un plazo de 20 días hábiles</strong> si no estás de acuerdo:
+        </p>
+        <div class="card-grid" style="margin-top: var(--space-md);">
+          <div class="card-white">
+            <span class="norm-tag" style="background: var(--primary-container); color: var(--on-primary-container);">Escala 1 · Faltas leves</span>
+            <h4 style="margin-top: var(--space-sm);">Despistes puntuales</h4>
+            <p class="field-hint" style="margin-top: var(--space-xs);">
+              Por ejemplo, de 1 a 3 faltas leves de puntualidad en un mes sin justificar, descuidos menores en el uniforme o no avisar a tiempo de una ausencia justificada. Suelen sancionarse con amonestación verbal o escrita (nunca con despido directo).
+            </p>
+          </div>
+          <div class="card-white">
+            <span class="norm-tag" style="background: var(--tertiary-container); color: var(--on-tertiary-container);">Escala 2 · Faltas graves</span>
+            <h4 style="margin-top: var(--space-sm);">Reiteración o desobediencia</h4>
+            <p class="field-hint" style="margin-top: var(--space-xs);">
+              Por ejemplo, acumular más faltas de puntualidad en un mes, faltar un día al trabajo sin causa justificada o desobedecer instrucciones laborales claras sin causa. Pueden conllevar suspensión temporal de empleo y sueldo (de pocos días). Exige comunicación escrita.
+            </p>
+          </div>
+          <div class="card-white">
+            <span class="norm-tag" style="background: var(--error-container); color: var(--on-error-container);">Escala 3 · Faltas muy graves</span>
+            <h4 style="margin-top: var(--space-sm);">Conductas serias</h4>
+            <p class="field-hint" style="margin-top: var(--space-xs);">
+              Por ejemplo, ausencias injustificadas reiteradas (3 o más días), hurto o apropiación de caja, agresiones o acoso, o embriaguez habitual con impacto en el servicio. Es el único escalón que puede llevar al despido disciplinario, siempre mediante carta detallada con hechos y fecha.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- En la práctica -->
+      <div class="practice-card">
+        <span class="practice-badge">
+          <i data-lucide="alert-triangle" aria-hidden="true"></i>
+          <span>En la práctica… ¿Qué hago si me entregan una carta de sanción?</span>
+        </span>
+        <p>
+          A Pablo le entregan una amonestación por escrito acusándole de haber llegado tarde tres días hace dos meses. Él sabe que esos días había avisado por cambio de turno pactado con el encargado.
+        </p>
+        <p>
+          <strong>Paso práctico seguro:</strong> Nunca te niegues a recoger tu copia, pero escribe a mano junto a tu firma <strong>«Recibido, no conforme»</strong> y pon la <strong>fecha real</strong> en la que te la entregan. Así te quedas con prueba del documento sin aceptar los hechos y empieza a contar el plazo legal de 20 días hábiles para reclamar.
+        </p>
+      </div>
+    </section>
+
+    <!-- SECCIÓN 6: PREGUNTAS FRECUENTES (FAQ EN ACORDEÓN) -->
+    <section class="guide-section reveal" id="faq-hosteleria" aria-labelledby="h-faq">
+      <div class="section-head">
+        <span class="kicker">Sección 6 · Respuestas directas en primera persona</span>
+        <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: var(--space-md);">
+          <div>
+            <h2 id="h-faq">Preguntas frecuentes de barra, sala y finiquito</h2>
+            <p class="section-lede" style="margin-bottom: 0;">
+              Haz clic en la pregunta que más se parezca a tu situación actual para ver la respuesta paso a paso.
+            </p>
+          </div>
+          <button type="button" class="btn btn-ghost" id="faq-toggle-all" onclick="toggleAllFaq()">Abrir todas las respuestas</button>
+        </div>
+      </div>
+
+      <div class="faq-list" id="faq-list">
+        <!-- Generado dinámicamente para garantizar control accesible -->
+      </div>
+    </section>
+
+    <!-- PIE DE PÁGINA Y FUENTES -->
+    <footer class="guide-footer">
+      <div style="display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: var(--space-md);">
+        <div>
+          <span class="kicker" style="margin-bottom: var(--space-xs);">Fuentes normativas de esta guía</span>
+          <p class="footer-meta" style="margin: 0;">
+            Elaborado con los importes y reglas del <strong>Convenio Colectivo de Hostelería de Navarra (Tablas Salariales Definitivas de 2025)</strong>, el <strong>Acuerdo Laboral de Ámbito Estatal para el Sector de Hostelería (ALEH)</strong> y el <strong>Estatuto de los Trabajadores</strong>.
+          </p>
+        </div>
+        <a href="#inicio" class="btn btn-secondary">
+          <i data-lucide="arrow-up" aria-hidden="true"></i>
+          <span>Volver arriba</span>
+        </a>
+      </div>
+      <p class="footer-meta" style="margin: 0;">
+        Nota pedagógica: esta herramienta tiene carácter informativo y educativo. Para reclamaciones concretas de cantidades, finiquitos o despidos (donde existen plazos cortos como los 20 días hábiles), acude siempre a tu representación sindical o a un servicio de orientación jurídica laboral con tus nóminas y contrato.
+      </p>
+    </footer>
+
+  </main>
+
+  <script>
+    /* Datos normativos y tablas salariales oficiales 2025 (Hostelería Navarra) */
+    const NORMS_DATA = {
+      et: {
+        tag: `Ley mínima en toda España`,
+        title: `Estatuto de los Trabajadores (ET)`,
+        desc: `Es la ley laboral general de España. Marca los límites que ningún empresario ni convenio puede rebajar: las 12 horas mínimas de descanso entre jornadas, los 30 días naturales de vacaciones al año o la pausa de 15 minutos en jornadas continuadas de más de 6 horas.`,
+        example: `Traducción cotidiana: Si tu contrato dice que solo tienes 10 horas de descanso entre cerrar de noche y abrir de mañana, esa frase es nula porque el Estatuto exige 12 horas.`
+      },
+      aleh: {
+        tag: `Reglas comunes del sector`,
+        title: `ALEH (Acuerdo Laboral de Ámbito Estatal para el Sector de Hostelería)`,
+        desc: `Es el convenio marco de toda la hostelería española. No fija los sueldos en euros (eso lo hace Navarra), pero define qué funciones pertenecen a un Camarero/a y cuáles a un Ayudante/a, los periodos de prueba por grupo profesional y la escala exacta de faltas y sanciones.`,
+        example: `Traducción cotidiana: Gracias al ALEH, no te pueden despedir de forma fulminante por un despiste menor; las faltas deben graduarse en leves, graves o muy graves.`
+      },
+      navarra: {
+        tag: `Tu sueldo y condiciones en Navarra`,
+        title: `Convenio Colectivo de Hostelería de Navarra (Tablas 2025)`,
+        desc: `Es el texto que aterriza en euros concretos cuánto debes cobrar cada mes en Navarra: Salario Base, Plus Convenio, Manutención, Pagas Extra, Nocturnidad (22:00–06:00), Domingos y Festivos, Antigüedad, Ropa de trabajo, preaviso de 15 días y ascenso automático a los 2 años.`,
+        example: `Traducción cotidiana: Si eres Ayudante/a en Navarra en 2025, tu salario ordinario mensual mínimo es de 1.642,90 € brutos y al cumplir 2 años en el sector subes a Camarero/a (1.696,47 €).`
+      },
+      contrato: {
+        tag: `Acuerdo individual firmado`,
+        title: `Tu contrato de trabajo`,
+        desc: `Es el papel que firmas al entrar en un bar, hotel o restaurante. Recoge tu jornada (completa o parcial), tu categoría y el centro de trabajo. Solo es válido en aquello que iguale o mejore al Estatuto, al ALEH y al Convenio de Navarra.`,
+        example: `Traducción cotidiana: Si la empresa quiere pagarte por encima de convenio («mejora voluntaria»), el contrato vale perfectamente; si intenta imponerte 30 días de preaviso siendo camarero, manda el Convenio (15 días).`
+      }
+    };
+
+    const MILESTONES_DATA = {
+      0: {
+        title: `Inicio en el sector: Ayudante/a de camarero (Nivel IV)`,
+        badge: `22.720,17 € brutos / año`,
+        body: `Empiezas en el Nivel IV (Grupo Profesional 3.º) apoyando el servicio bajo supervisión. Tu salario mensual ordinario en 2025 es de 1.642,90 € (Base 1.278,47 € + Plus Convenio 224,17 € + Manutención 140,26 €) más dos pagas extra de 1.502,64 €.`
+      },
+      2: {
+        title: `A los 2 años en el sector: Ascenso automático a Camarero/a`,
+        badge: `+749,89 € brutos / año`,
+        body: `Quienes ocupen el puesto de Ayudante de camarero, una vez cumplidos dos años trabajando en el sector de hostelería, ascienden automáticamente a la categoría y puesto de Camarero/a (Nivel III). Tu salario anual bruto sube de 22.720,17 € a 23.470,06 €.`
+      },
+      3: {
+        title: `A los 3 años en el sector: Garantía salarial de Nivel III`,
+        badge: `Retribución Nivel III garantizada`,
+        body: `Todos los trabajadores encuadrados en el Nivel IV que alcancen los tres años de antigüedad en el sector pasan a percibir obligatoriamente la retribución salarial correspondiente al Nivel III (1.696,47 € ordinarios al mes y pagas de 1.556,20 €).`
+      },
+      6: {
+        title: `A los 6 años de antigüedad: Primer tramo fijo mensual`,
+        badge: `+106,00 € / mes (Cam.) · +102,28 € / mes (Ayud.)`,
+        body: `Al alcanzar los 6 años de antigüedad se devenga este complemento mensual en 12 pagas: 106,00 €/mes para Camarero/a (Nivel III) o 102,28 €/mes para Ayudante/a (Nivel IV). Además, la antigüedad también computa en tus pagas extraordinarias de julio y diciembre.`
+      },
+      9: {
+        title: `A los 9 años de antigüedad: Segundo tramo consolidado`,
+        badge: `+212,01 € / mes (Cam.) · +204,55 € / mes (Ayud.)`,
+        body: `Con 9 años de antigüedad, el complemento mensual en 12 pagas asciende a 212,01 €/mes para Camarero/a (Nivel III) y 204,55 €/mes para Ayudante/a (Nivel IV), sumando más de 2.500 € extra al año sobre el salario base.`
+      },
+      19: {
+        title: `A los 19 años: Premio de vinculación`,
+        badge: `185,09 € / año (ambos niveles)`,
+        body: `Reconocimiento económico a la permanencia prolongada: cuantía fija anual idéntica de 185,09 € al año tanto para Camarero/a (Nivel III) como para Ayudante/a (Nivel IV).`
+      },
+      29: {
+        title: `A los 29 años: Premio de vinculación superior`,
+        badge: `277,62 € / año (ambos niveles)`,
+        body: `Al cumplir 29 años de vinculación, la cuantía fija anual asciende a 277,62 € al año, idéntica para ambos niveles profesionales.`
+      }
+    };
+
+    const SALARY_ROWS = [
+      {
+        cat: `fijo`,
+        diffType: `diff`,
+        name: `Salario Base`,
+        plain: `La parte fija principal de tu sueldo por tu jornada mensual.`,
+        cam: `1.325,03 €`,
+        ayu: `1.278,47 €`,
+        diff: `+46,56 €`,
+        cond: `Mensual (12 mensualidades ordinarias)`
+      },
+      {
+        cat: `fijo`,
+        diffType: `diff`,
+        name: `Plus Convenio`,
+        plain: `Complemento mensual fijo que suma el Convenio de Navarra al salario base.`,
+        cam: `231,17 €`,
+        ayu: `224,17 €`,
+        diff: `+7,00 €`,
+        cond: `Mensual`
+      },
+      {
+        cat: `fijo`,
+        diffType: `equal`,
+        name: `Plus Manutención`,
+        plain: `Ayuda mensual para comida (se reduce si haces uso del comedor del local).`,
+        cam: `140,26 €`,
+        ayu: `140,26 €`,
+        diff: `0,00 €`,
+        cond: `Mensual (12 pagas; reducible si se usa comedor)`
+      },
+      {
+        cat: `fijo`,
+        diffType: `diff`,
+        isTotal: true,
+        name: `Total Salario Mensual Ordinario`,
+        plain: `Suma mensual habitual antes de horas nocturnas, festivos o antigüedad.`,
+        cam: `1.696,47 €`,
+        ayu: `1.642,90 €`,
+        diff: `+53,57 €`,
+        cond: `Suma mensual (Base + Plus Convenio + Manutención)`
+      },
+      {
+        cat: `fijo`,
+        diffType: `diff`,
+        name: `Pagas Extraordinarias (2 al año)`,
+        plain: `Las pagas de verano (julio) y Navidad (diciembre), salvo si las cobras prorrateadas cada mes.`,
+        cam: `1.556,20 € / paga`,
+        ayu: `1.502,64 € / paga`,
+        diff: `+53,56 € / paga`,
+        cond: `Julio y diciembre (Base + Plus Convenio + Antigüedad si procede)`
+      },
+      {
+        cat: `fijo`,
+        diffType: `diff`,
+        isTotal: true,
+        name: `Total Salario Anual Bruto`,
+        plain: `Todo lo que cobras al año en bruto en situación ordinaria (sin pluses variables).`,
+        cam: `23.470,06 €`,
+        ayu: `22.720,17 €`,
+        diff: `+749,89 €`,
+        cond: `Cómputo anual de 14 pagas efectivas`
+      },
+      {
+        cat: `variable`,
+        diffType: `diff`,
+        name: `Plus Nocturnidad (22:00 a 06:00 h)`,
+        plain: `Extra por cada hora trabajada a partir de las 10 de la noche hasta las 6 de la mañana.`,
+        cam: `2,38 € / hora`,
+        ayu: `2,34 € / hora`,
+        diff: `+0,04 € / hora`,
+        cond: `Por cada hora efectiva nocturna`
+      },
+      {
+        cat: `variable`,
+        diffType: `equal`,
+        name: `Plus Domingos y Festivos`,
+        plain: `Suplemento por trabajar un domingo o día festivo oficial a jornada completa.`,
+        cam: `32,58 € / día`,
+        ayu: `32,58 € / día`,
+        diff: `0,00 € (igual)`,
+        cond: `Por domingo o festivo efectivamente trabajado a jornada completa`
+      },
+      {
+        cat: `variable`,
+        diffType: `equal`,
+        name: `Abono sustitución descanso semanal`,
+        plain: `Compensación mensual si acuerdas librar día y medio en lugar de 2 días por semana.`,
+        cam: `51,36 € / mes`,
+        ayu: `51,36 € / mes`,
+        diff: `0,00 € (igual)`,
+        cond: `Aplicable si se pacta sustituir el descanso de 2 días por día y medio`
+      },
+      {
+        cat: `variable`,
+        diffType: `equal`,
+        name: `Compensación por festivo denegado`,
+        plain: `Indemnización si la empresa rechaza la fecha que eliges para compensar un festivo.`,
+        cam: `38,40 €`,
+        ayu: `38,40 €`,
+        diff: `0,00 € (igual)`,
+        cond: `Si la empresa deniega la fecha elegida para compensar un festivo`
+      },
+      {
+        cat: `antiguedad`,
+        diffType: `diff`,
+        name: `Antigüedad (6 años)`,
+        plain: `Plus mensual por llevar 6 años en la empresa (también suma en pagas extras).`,
+        cam: `106,00 € / mes`,
+        ayu: `102,28 € / mes`,
+        diff: `+3,72 € / mes`,
+        cond: `Mensual (12 pagas)`
+      },
+      {
+        cat: `antiguedad`,
+        diffType: `diff`,
+        name: `Antigüedad (9 años)`,
+        plain: `Plus mensual consolidado al cumplir 9 años de antigüedad.`,
+        cam: `212,01 € / mes`,
+        ayu: `204,55 € / mes`,
+        diff: `+7,46 € / mes`,
+        cond: `Mensual (12 pagas)`
+      },
+      {
+        cat: `antiguedad`,
+        diffType: `equal`,
+        name: `Premio de vinculación (19 años)`,
+        plain: `Gratificación anual fija por fidelidad tras 19 años.`,
+        cam: `185,09 € / año`,
+        ayu: `185,09 € / año`,
+        diff: `0,00 € (igual)`,
+        cond: `Cuantía fija anual idéntica para ambos niveles`
+      },
+      {
+        cat: `antiguedad`,
+        diffType: `equal`,
+        name: `Premio de vinculación (29 años)`,
+        plain: `Gratificación anual fija al alcanzar los 29 años.`,
+        cam: `277,62 € / año`,
+        ayu: `277,62 € / año`,
+        diff: `0,00 € (igual)`,
+        cond: `Cuantía fija anual idéntica para ambos niveles`
+      },
+      {
+        cat: `compensacion`,
+        diffType: `equal`,
+        name: `Compensación por ropa de trabajo`,
+        plain: `Dinero para uniforme/calzado si el local no te lo entrega (+50% si no aporta nada).`,
+        cam: `146,66 € / año`,
+        ayu: `146,66 € / año`,
+        diff: `0,00 € (igual)`,
+        cond: `Abonable en septiembre (+50% si no aporta ningún elemento)`
+      },
+      {
+        cat: `compensacion`,
+        diffType: `diff`,
+        name: `Precio / hora ordinaria de referencia`,
+        plain: `Valor orientativo de 1 hora normal de trabajo fijado por el convenio en 2025.`,
+        cam: `13,55 € / hora`,
+        ayu: `13,12 € / hora`,
+        diff: `+0,43 € / hora`,
+        cond: `Valor fijado en el convenio para 2025`
+      }
+    ];
+
+    const MYTHS_DATA = [
+      {
+        cat: `cese`,
+        myth: `«Si dejas el trabajo siendo camarero o ayudante, tienes que avisar con 1 mes o te descuentan 30 días».`,
+        reality: `Falso en Navarra. Tanto el Camarero/a (Nivel III) como el Ayudante/a de camarero (Nivel IV) tienen un preaviso mínimo de 15 días. El plazo de 30 días está reservado únicamente para el Nivel I (cargos directivos y jefaturas superiores).`,
+        source: `Convenio Colectivo de Hostelería de Navarra`
+      },
+      {
+        cat: `turnos`,
+        myth: `«En hostelería los fines de semana no existe el descanso de 12 horas entre turnos si hay mucho trabajo».`,
+        reality: `Falso. Entre el final de una jornada y el inicio de la siguiente deben pasar al menos 12 horas seguidas por imperativo del Estatuto de los Trabajadores (art. 34.3). Ningún pico de reservas permite saltarse este descanso mínimo.`,
+        source: `Estatuto de los Trabajadores (art. 34.3)`
+      },
+      {
+        cat: `faltas`,
+        myth: `«Si llegas 10 minutos tarde un día o rompes una bandeja sin querer, te pueden despedir al instante sin derecho a nada».`,
+        reality: `Falso. El ALEH exige proporcionalidad. Un retraso puntual es como máximo una falta leve, nunca causa de despido disciplinario (reservado a faltas muy graves o reiteración seria). Y si te sancionan de forma grave o muy grave, han de dártelo por escrito con hechos y fecha.`,
+        source: `Régimen disciplinario del ALEH`
+      },
+      {
+        cat: `dinero`,
+        myth: `«Como hay bote de propinas o te invitamos a cenar un bocadillo en cocina, ya va incluido en tu sueldo».`,
+        reality: `Falso. Las propinas nunca sustituyen al salario base (1.325,03 € o 1.278,47 €) ni a las horas nocturnas. Y el Plus Manutención (140,26 €/mes) solo es reducible si existe comedor de empresa y haces uso real de él según convenio.`,
+        source: `Tablas Salariales Navarra 2025`
+      },
+      {
+        cat: `cese`,
+        myth: `«Si te contratan de ayudante de camarero pero haces lo mismo que los camareros, tienes que esperar a que el jefe quiera ascenderte».`,
+        reality: `Falso por dos vías. Primero, por funciones reales ya te correspondería cobrar como camarero. Segundo, en Navarra al cumplir 2 años en el sector como ayudante asciendes automáticamente a Camarero/a, y con 3 años en Nivel IV cobras Nivel III.`,
+        source: `Convenio Navarra (Progresión profesional)`
+      },
+      {
+        cat: `turnos`,
+        myth: `«Si trabajas un festivo y pides librar un martes para compensarlo, la empresa te lo deniega gratis y elige cuando quiere».`,
+        reality: `Falso. Además del Plus de Domingos y Festivos (32,58 € por jornada completa), en el Convenio de Navarra si la empresa deniega la fecha elegida para compensar un festivo trabajado se genera una compensación económica de 38,40 €.`,
+        source: `Tablas Salariales Navarra 2025`
+      }
+    ];
+
+    const FAQ_DATA = [
+      {
+        q: `Llevo más de dos años como ayudante de camarero sumando dos bares distintos. ¿Tengo derecho a subir a Camarero/a?`,
+        a: `Sí. El Convenio Colectivo de Hostelería de Navarra establece que los ayudantes de camarero, una vez cumplidos dos años en el sector (no exige que sean en el mismo local), ascienden automáticamente a la categoría y puesto de Camarero/a (Nivel III). Además, cualquier trabajador del Nivel IV que alcance tres años en el sector pasa a cobrar la retribución del Nivel III. Presenta tu informe de vida laboral a la empresa para acreditarlo por escrito.`
+      },
+      {
+        q: `Quiero irme a otro trabajo. ¿Con cuántos días debo avisar para que no me descuenten nada del finiquito?`,
+        a: `En Navarra, tanto si eres Camarero/a (Nivel III) como Ayudante/a de camarero (Nivel IV), el preaviso mínimo por cese voluntario es de 15 días. Entrega tu carta de baja voluntaria por duplicado (con fecha y firma de recibido de la empresa, o por burofax si se niegan a sellarla) al menos 15 días antes de tu último día de trabajo.`
+      },
+      {
+        q: `Me piden cerrar a la 01:00 de la madrugada y entrar a las 09:00 de la mañana. ¿Qué puedo hacer?`,
+        a: `Entre las 01:00 y las 09:00 solo hay 8 horas, lo que incumple las 12 horas mínimas de descanso entre jornadas que garantiza el Estatuto de los Trabajadores (art. 34.3). Tu entrada legal no debería ser antes de las 13:00 h. Comunícalo de forma educada pero por escrito (mensaje o correo) recordando el descanso legal de 12 horas para dejar constancia.`
+      },
+      {
+        q: `¿Cómo se calculan mis dos pagas extra de julio y diciembre? ¿Entra el Plus Manutención?`,
+        a: `En Navarra, las 2 pagas extraordinarias (julio y diciembre) están compuestas por Salario Base + Plus Convenio (+ Antigüedad si llevas 6 o 9 años). En 2025 eso equivale a 1.556,20 € por paga para Camarero/a y 1.502,64 € para Ayudante/a (antes de antigüedad). El Plus Manutención (140,26 €) se abona en 12 pagas, no en las extras.`
+      },
+      {
+        q: `Trabajo todos los domingos del mes porque libramos los lunes y martes. ¿Cobro igualmente el Plus Domingos y Festivos?`,
+        a: `Sí. El Plus de Domingos y Festivos (32,58 € por día en 2025, idéntico para Camarero/a y Ayudante/a) se abona por cada domingo o festivo efectivamente trabajado a jornada completa, con independencia de qué dos días entre semana tengas tu descanso semanal.`
+      },
+      {
+        q: `La empresa solo me dio una camiseta y me tuve que comprar pantalón y calzado antideslizante. ¿Puedo reclamar el plus de ropa?`,
+        a: `Sí. La compensación por ropa de trabajo en Navarra es de 146,66 € al año (abonables en septiembre) si la empresa no facilita el uniforme y el calzado necesarios. Si la empresa no aportara absolutamente ningún elemento de vestuario, esa cuantía se incrementa en un +50% (219,99 €).`
+      },
+      {
+        q: `Me han entregado una carta de sanción o amonestación con la que no estoy de acuerdo. ¿Qué hago en ese momento?`,
+        a: `No te niegues a coger la copia (porque así sabrás exactamente de qué te acusan y desde cuándo corre el plazo). Firma escribiendo claramente de tu puño y letra «Recibido, no conforme» junto con la fecha real del día de entrega. Desde ese día tienes 20 días hábiles para impugnarla ante el juzgado de lo social si es injusta.`
+      }
+    ];
+
+    let currentSalaryCategory = `all`;
+    let currentMythCategory = `all`;
+
+    /* 1. Selector de norma (Sección 1) */
+    function selectNorm(key) {
+      const data = NORMS_DATA[key];
+      if (!data) return;
+
+      const btns = document.querySelectorAll(`.norm-btn`);
+      btns.forEach(function (b) {
+        b.classList.toggle(`is-selected`, b.getAttribute(`data-norm`) === key);
+      });
+
+      const tagEl = document.getElementById(`norm-tag`);
+      const titleEl = document.getElementById(`norm-title`);
+      const descEl = document.getElementById(`norm-desc`);
+      const exEl = document.getElementById(`norm-example`);
+
+      if (tagEl) tagEl.textContent = data.tag;
+      if (titleEl) titleEl.textContent = data.title;
+      if (descEl) descEl.textContent = data.desc;
+      if (exEl) exEl.innerHTML = `<strong>` + data.example.split(`:`)[0] + `:</strong>` + data.example.split(`:`)[1];
+    }
+
+    /* 2. Comprobador de descanso entre turnos (Sección 2) */
+    function checkShiftRest() {
+      const closeSel = document.getElementById(`shift-close`);
+      const openSel = document.getElementById(`shift-open`);
+      const box = document.getElementById(`shift-result`);
+      const title = document.getElementById(`shift-status-title`);
+      const detail = document.getElementById(`shift-status-detail`);
+      const badge = document.getElementById(`shift-hours-badge`);
+
+      if (!closeSel || !openSel || !box || !title || !detail || !badge) return;
+
+      const closeVal = Number(closeSel.value); // e.g., 25 = 01:00 AM
+      const openVal = Number(openSel.value);   // e.g., 9 = 09:00 AM
+      const restHours = (24 + openVal) - closeVal;
+      const nightHours = Math.max(0, closeVal - 22);
+
+      badge.textContent = restHours + ` h`;
+
+      if (restHours >= 12) {
+        box.className = `shift-result is-ok`;
+        title.textContent = `Descanso legal cumplido (` + restHours + ` horas entre turnos)`;
+        detail.textContent = `Cumples el mínimo obligatorio de 12 horas del Estatuto de los Trabajadores. ` +
+          (nightHours > 0
+            ? `Recuerda que las ` + nightHours + ` horas desde las 22:00 h suman el Plus Nocturnidad (2,38 €/h Camarero o 2,34 €/h Ayudante).`
+            : `No acumulaste horas en franja nocturna (22:00 a 06:00 h).`);
+      } else {
+        const missing = 12 - restHours;
+        const earliestHour = closeVal + 12 - 24;
+        const formattedEarliest = (earliestHour < 10 ? `0` : ``) + earliestHour + `:00 h`;
+        box.className = `shift-result is-alert`;
+        title.textContent = `Solo hay ` + restHours + ` horas de descanso — Faltan ` + missing + ` h (incumple el Estatuto)`;
+        detail.textContent = `Tu descanso mínimo de 12 horas no termina hasta las ` + formattedEarliest + `. ` +
+          (nightHours > 0
+            ? `Además, desde las 22:00 h acumulaste ` + nightHours + ` horas con derecho a Plus Nocturnidad.`
+            : ``);
+      }
+    }
+
+    /* 3. Hitos de progresión y antigüedad (Sección 3) */
+    function selectMilestone(years) {
+      const data = MILESTONES_DATA[years];
+      if (!data) return;
+
+      const btns = document.querySelectorAll(`.milestone-btn`);
+      btns.forEach(function (b) {
+        const m = Number(b.getAttribute(`data-m`));
+        b.classList.toggle(`is-active`, m === years);
+      });
+
+      const tEl = document.getElementById(`ms-title`);
+      const bEl = document.getElementById(`ms-badge`);
+      const pEl = document.getElementById(`ms-body`);
+
+      if (tEl) tEl.textContent = data.title;
+      if (bEl) bEl.textContent = data.badge;
+      if (pEl) pEl.textContent = data.body;
+    }
+
+    /* 4. Tabla comparativa salarial filtrable (Sección 4) */
+    function setSalaryCategory(cat) {
+      currentSalaryCategory = cat;
+      const chips = document.querySelectorAll(`[data-cat]`);
+      chips.forEach(function (c) {
+        c.classList.toggle(`is-active`, c.getAttribute(`data-cat`) === cat);
+      });
+      filterSalaryTable();
+    }
+
+    function filterSalaryTable() {
+      const tbody = document.getElementById(`salary-table-body`);
+      const searchInput = document.getElementById(`salary-search`);
+      const diffSel = document.getElementById(`salary-diff-filter`);
+      const emptyMsg = document.getElementById(`salary-empty-msg`);
+
+      if (!tbody) return;
+
+      const q = searchInput ? searchInput.value.trim().toLowerCase() : ``;
+      const diffFilter = diffSel ? diffSel.value : `all`;
+
+      const filtered = SALARY_ROWS.filter(function (row) {
+        if (currentSalaryCategory !== `all` && row.cat !== currentSalaryCategory) return false;
+        if (diffFilter !== `all` && row.diffType !== diffFilter) return false;
+        if (q) {
+          const hay = (row.name + ` ` + row.plain + ` ` + row.cond).toLowerCase();
+          if (hay.indexOf(q) === -1) return false;
+        }
+        return true;
+      });
+
+      tbody.innerHTML = ``;
+
+      if (filtered.length === 0) {
+        if (emptyMsg) emptyMsg.hidden = false;
+        return;
+      }
+      if (emptyMsg) emptyMsg.hidden = true;
+
+      filtered.forEach(function (row) {
+        const tr = document.createElement(`tr`);
+        if (row.isTotal) tr.className = `is-total-row`;
+
+        const pillClass = row.diffType === `equal` ? `diff-pill is-equal` : `diff-pill`;
+        tr.innerHTML =
+          `<td><span class="concept-name">` + row.name + `</span><span class="concept-plain">` + row.plain + `</span></td>` +
+          `<td class="num-col">` + row.cam + `</td>` +
+          `<td class="num-col">` + row.ayu + `</td>` +
+          `<td class="num-col"><span class="` + pillClass + `">` + row.diff + `</span></td>` +
+          `<td>` + row.cond + `</td>`;
+
+        tbody.appendChild(tr);
+      });
+    }
+
+    /* 5. Simulador de nómina mensual (Sección 5) */
+    function formatEuro(val) {
+      return val.toLocaleString(`es-ES`, { minimumFractionDigits: 2, maximumFractionDigits: 2 }) + ` €`;
+    }
+
+    function onNightSlider(val) {
+      const numEl = document.getElementById(`sim-night-num`);
+      if (numEl) numEl.value = val;
+      updateSimulator();
+    }
+
+    function onNightNumber(val) {
+      const rangeEl = document.getElementById(`sim-night-range`);
+      let num = Number(val);
+      if (isNaN(num) || num < 0) num = 0;
+      if (num > 160) num = 160;
+      if (rangeEl) rangeEl.value = Math.min(120, num);
+      updateSimulator();
+    }
+
+    function applySimPreset(preset) {
+      const roleEl = document.getElementById(`sim-role`);
+      const manuEl = document.getElementById(`sim-manutencion`);
+      const nightRange = document.getElementById(`sim-night-range`);
+      const nightNum = document.getElementById(`sim-night-num`);
+      const sunEl = document.getElementById(`sim-sundays`);
+      const senEl = document.getElementById(`sim-seniority`);
+      const proEl = document.getElementById(`sim-prorrata`);
+      const restEl = document.getElementById(`sim-rest-sub`);
+      const holEl = document.getElementById(`sim-denied-hol`);
+
+      if (!roleEl || !manuEl || !nightRange || !nightNum || !sunEl || !senEl || !proEl || !restEl || !holEl) return;
+
+      if (preset === `standard`) {
+        roleEl.value = `ayudante`;
+        manuEl.value = `full`;
+        nightRange.value = `0`;
+        nightNum.value = `0`;
+        sunEl.value = `0`;
+        senEl.value = `0`;
+        proEl.value = `14`;
+        restEl.checked = false;
+        holEl.checked = false;
+      } else if (preset === `nights`) {
+        roleEl.value = `camarero`;
+        manuEl.value = `full`;
+        nightRange.value = `30`;
+        nightNum.value = `30`;
+        sunEl.value = `4`;
+        senEl.value = `0`;
+        proEl.value = `14`;
+        restEl.checked = false;
+        holEl.checked = false;
+      } else if (preset === `veteran`) {
+        roleEl.value = `camarero`;
+        manuEl.value = `full`;
+        nightRange.value = `10`;
+        nightNum.value = `10`;
+        sunEl.value = `2`;
+        senEl.value = `6`;
+        proEl.value = `12`;
+        restEl.checked = false;
+        holEl.checked = false;
+      }
+      updateSimulator();
+    }
+
+    function updateSimulator() {
+      const roleEl = document.getElementById(`sim-role`);
+      const manuEl = document.getElementById(`sim-manutencion`);
+      const nightNumEl = document.getElementById(`sim-night-num`);
+      const sunEl = document.getElementById(`sim-sundays`);
+      const senEl = document.getElementById(`sim-seniority`);
+      const proEl = document.getElementById(`sim-prorrata`);
+      const restEl = document.getElementById(`sim-rest-sub`);
+      const holEl = document.getElementById(`sim-denied-hol`);
+
+      const totalEl = document.getElementById(`sim-total`);
+      const breakEl = document.getElementById(`sim-breakdown`);
+      const hourEl = document.getElementById(`sim-hour-rate`);
+      const extraEl = document.getElementById(`sim-extra-val`);
+
+      if (!roleEl || !manuEl || !nightNumEl || !sunEl || !senEl || !proEl || !restEl || !holEl || !totalEl || !breakEl) return;
+
+      const isCam = roleEl.value === `camarero`;
+      const base = isCam ? 1325.03 : 1278.47;
+      const plusConv = isCam ? 231.17 : 224.17;
+      const manutencion = manuEl.value === `full` ? 140.26 : 0;
+
+      let nightH = Math.max(0, Number(nightNumEl.value) || 0);
+      if (nightH > 160) nightH = 160;
+      const nightRate = isCam ? 2.38 : 2.34;
+      const nightPay = nightH * nightRate;
+
+      let sundays = Math.max(0, Math.min(10, Number(sunEl.value) || 0));
+      const sundayPay = sundays * 32.58;
+
+      const senTier = senEl.value;
+      let senPay = 0;
+      if (senTier === `6`) senPay = isCam ? 106.00 : 102.28;
+      if (senTier === `9`) senPay = isCam ? 212.01 : 204.55;
+
+      // Paga extra base + convenio + antigüedad (si procede)
+      const baseExtra = (isCam ? 1556.20 : 1502.64) + senPay;
+      const prorrataPay = proEl.value === `12` ? (baseExtra * 2) / 12 : 0;
+
+      const restPay = restEl.checked ? 51.36 : 0;
+      const holPay = holEl.checked ? 38.40 : 0;
+
+      // Nota: Si manutención completa, usar cifra oficial redondeada del total ordinario cuando coincide exactamente?
+      // Sumamos exactamente cada concepto para transparencia matemática del simulador.
+      const total = base + plusConv + manutencion + nightPay + sundayPay + senPay + prorrataPay + restPay + holPay;
+
+      totalEl.textContent = formatEuro(total);
+      if (hourEl) hourEl.textContent = isCam ? `13,55 € / hora` : `13,12 € / hora`;
+      if (extraEl) extraEl.textContent = formatEuro(baseExtra);
+
+      const lines = [
+        { label: `Salario Base mensual`, val: base },
+        { label: `Plus Convenio`, val: plusConv },
+        { label: manuEl.value === `full` ? `Plus Manutención` : `Plus Manutención (comedor usado)`, val: manutencion }
+      ];
+      if (nightH > 0) lines.push({ label: `Plus Nocturnidad (` + nightH + ` h × ` + formatEuro(nightRate) + `)`, val: nightPay });
+      if (sundays > 0) lines.push({ label: `Plus Domingos y Festivos (` + sundays + ` días × 32,58 €)`, val: sundayPay });
+      if (senPay > 0) lines.push({ label: `Antigüedad (` + senTier + ` años)`, val: senPay });
+      if (prorrataPay > 0) lines.push({ label: `Prorrata pagas extras (2/12)`, val: prorrataPay });
+      if (restPay > 0) lines.push({ label: `Abono sustitución descanso semanal`, val: restPay });
+      if (holPay > 0) lines.push({ label: `Compensación por festivo denegado`, val: holPay });
+
+      breakEl.innerHTML = lines.map(function (item) {
+        return `<li class="breakdown-row"><span>` + item.label + `</span><span class="mono-num" style="font-weight:700;">` + formatEuro(item.val) + `</span></li>`;
+      }).join(``);
+    }
+
+    /* 6. Mitos vs Realidad */
+    function filterMyths(cat) {
+      currentMythCategory = cat;
+      const chips = document.querySelectorAll(`[data-myth-cat]`);
+      chips.forEach(function (c) {
+        c.classList.toggle(`is-active`, c.getAttribute(`data-myth-cat`) === cat);
+      });
+
+      const grid = document.getElementById(`myth-grid`);
+      if (!grid) return;
+
+      const list = MYTHS_DATA.filter(function (m) {
+        return cat === `all` || m.cat === cat;
+      });
+
+      grid.innerHTML = list.map(function (m) {
+        return `<article class="myth-card">` +
+          `<div class="myth-top">` +
+            `<span class="myth-badge"><i data-lucide="x-circle" aria-hidden="true"></i><span>Mito frecuente</span></span>` +
+            `<span class="myth-quote">` + m.myth + `</span>` +
+          `</div>` +
+          `<div class="reality-bottom">` +
+            `<span class="reality-badge"><i data-lucide="check-circle-2" aria-hidden="true"></i><span>Realidad legal</span></span>` +
+            `<p>` + m.reality + `</p>` +
+            `<span class="reality-source">Referencia: ` + m.source + `</span>` +
+          `</div>` +
+        `</article>`;
+      }).join(``);
+
+      if (typeof lucide !== `undefined`) lucide.createIcons();
+    }
+
+    /* 7. FAQ en acordeón accesible */
+    function renderFaq() {
+      const container = document.getElementById(`faq-list`);
+      if (!container) return;
+
+      container.innerHTML = FAQ_DATA.map(function (item, idx) {
+        const btnId = `faq-btn-` + idx;
+        const panelId = `faq-panel-` + idx;
+        return `<div class="faq-item">` +
+          `<button type="button" class="faq-trigger" id="` + btnId + `" aria-expanded="false" aria-controls="` + panelId + `" onclick="toggleFaq(` + idx + `)">` +
+            `<span>` + item.q + `</span>` +
+            `<i data-lucide="chevron-down" class="faq-icon" aria-hidden="true"></i>` +
+          `</button>` +
+          `<div id="` + panelId + `" class="faq-panel" role="region" aria-labelledby="` + btnId + `" hidden>` +
+            `<p>` + item.a + `</p>` +
+          `</div>` +
+        `</div>`;
+      }).join(``);
+    }
+
+    function toggleFaq(idx) {
+      const btn = document.getElementById(`faq-btn-` + idx);
+      const panel = document.getElementById(`faq-panel-` + idx);
+      if (!btn || !panel) return;
+
+      const expanded = btn.getAttribute(`aria-expanded`) === `true`;
+      btn.setAttribute(`aria-expanded`, expanded ? `false` : `true`);
+      panel.hidden = expanded;
+    }
+
+    function toggleAllFaq() {
+      const toggleBtn = document.getElementById(`faq-toggle-all`);
+      const triggers = document.querySelectorAll(`.faq-trigger`);
+      if (!toggleBtn || triggers.length === 0) return;
+
+      const anyClosed = Array.prototype.some.call(triggers, function (t) {
+        return t.getAttribute(`aria-expanded`) === `false`;
+      });
+
+      triggers.forEach(function (t, idx) {
+        const panel = document.getElementById(`faq-panel-` + idx);
+        t.setAttribute(`aria-expanded`, anyClosed ? `true` : `false`);
+        if (panel) panel.hidden = !anyClosed;
+      });
+
+      toggleBtn.textContent = anyClosed ? `Cerrar todas las respuestas` : `Abrir todas las respuestas`;
+    }
+
+    /* Seguimiento del índice activo y animaciones de entrada */
+    function initObservers() {
+      if (typeof IntersectionObserver === `undefined`) {
+        document.querySelectorAll(`.reveal`).forEach(function (el) {
+          el.classList.add(`is-visible`);
+        });
+        return;
+      }
+
+      const revealObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            entry.target.classList.add(`is-visible`);
+            revealObs.unobserve(entry.target);
+          }
+        });
+      }, { threshold: 0.08 });
+
+      document.querySelectorAll(`.reveal`).forEach(function (el) {
+        revealObs.observe(el);
+      });
+
+      const navObs = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            const id = entry.target.id;
+            const pills = document.querySelectorAll(`.index-pill`);
+            pills.forEach(function (p) {
+              p.classList.toggle(`is-active`, p.getAttribute(`data-section`) === id);
+            });
+          }
+        });
+      }, { rootMargin: `-20% 0px -65% 0px` });
+
+      document.querySelectorAll(`.guide-section, #simulador-nomina`).forEach(function (sec) {
+        navObs.observe(sec);
+      });
+    }
+
+    document.addEventListener(`DOMContentLoaded`, function () {
+      checkShiftRest();
+      filterSalaryTable();
+      updateSimulator();
+      filterMyths(`all`);
+      renderFaq();
+      initObservers();
+      if (typeof lucide !== `undefined`) {
+        lucide.createIcons();
+      }
+    });
+  </script>
+</body>
+</html>
